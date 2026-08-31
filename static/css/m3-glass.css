@@ -93,21 +93,21 @@ body {
    Material 3 Navigation Rail
    ========================================================================== */
 .m3-nav-rail {
-  width: 250px;
+  width: 92px;
   background: var(--glass-surface-2);
   backdrop-filter: var(--glass-blur);
   -webkit-backdrop-filter: var(--glass-blur);
   border-right: 1px solid var(--glass-border);
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  padding: 1.25rem 0.85rem;
+  align-items: center;
+  padding: 1.25rem 0.5rem;
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   z-index: 100;
-  transition: all var(--trans-normal);
+  transition: width var(--trans-normal);
   overflow-y: auto;
   overflow-x: hidden;
   scrollbar-width: thin;
@@ -123,12 +123,17 @@ body {
   border-radius: 4px;
 }
 
+.m3-nav-rail:hover {
+  width: 250px;
+  box-shadow: var(--glass-shadow);
+}
+
 .nav-brand {
   display: flex;
   align-items: center;
   gap: 0.85rem;
   margin-bottom: 1.25rem;
-  padding: 0 0.5rem;
+  padding: 0 0.4rem;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
@@ -136,10 +141,10 @@ body {
 }
 
 .brand-icon {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--md-sys-color-primary);
   background: rgba(168, 200, 255, 0.12);
-  padding: 0.45rem;
+  padding: 0.5rem;
   border-radius: var(--radius-md);
   border: 1px solid var(--glass-border);
   flex-shrink: 0;
@@ -147,17 +152,22 @@ body {
 }
 
 .brand-text {
-  font-size: 1.12rem;
+  font-size: 1.15rem;
   font-weight: 800;
   color: #fff;
-  opacity: 1;
+  opacity: 0;
+  transition: opacity var(--trans-fast);
   letter-spacing: -0.01em;
+}
+
+.m3-nav-rail:hover .brand-text {
+  opacity: 1;
 }
 
 .nav-items {
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
+  gap: 0.45rem;
   width: 100%;
   flex: 1;
   overflow-y: auto;
@@ -173,8 +183,8 @@ body {
   display: flex;
   align-items: center;
   gap: 0.85rem;
-  padding: 0.5rem 0.75rem;
-  border-radius: var(--radius-md);
+  padding: 0.4rem 0.5rem;
+  border-radius: var(--radius-full);
   color: var(--md-sys-color-on-surface-variant);
   text-decoration: none;
   cursor: pointer;
@@ -190,24 +200,28 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
-  min-width: 38px;
-  border-radius: var(--radius-sm);
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  border-radius: var(--radius-md);
   transition: all var(--trans-fast);
   background: rgba(255, 255, 255, 0.03);
 }
 
 .m3-nav-item .material-symbols-outlined {
-  font-size: 1.35rem;
+  font-size: 1.55rem;
 }
 
 .m3-nav-item .nav-label {
-  font-size: 0.9rem;
+  font-size: 0.92rem;
   font-weight: 600;
-  opacity: 1;
+  opacity: 0;
   color: #cbd5e1;
-  transition: color var(--trans-fast);
+  transition: opacity var(--trans-fast);
+}
+
+.m3-nav-rail:hover .nav-label {
+  opacity: 1;
 }
 
 .m3-nav-item:hover {
@@ -220,27 +234,21 @@ body {
 }
 
 .m3-nav-item.active {
-  background: linear-gradient(90deg, rgba(56, 189, 248, 0.18) 0%, rgba(56, 189, 248, 0.05) 100%);
-  border: 1px solid rgba(56, 189, 248, 0.25);
-  border-left: 3px solid var(--glow-cyan);
+  color: var(--md-sys-color-on-primary-container);
 }
 
 .m3-nav-item.active .icon-wrapper {
   background: var(--md-sys-color-primary-container);
   color: var(--md-sys-color-on-primary-container);
-  box-shadow: 0 0 16px rgba(56, 189, 248, 0.4);
-}
-
-.m3-nav-item.active .nav-label {
-  color: #fff;
-  font-weight: 700;
+  border-radius: var(--radius-md);
+  box-shadow: 0 0 18px rgba(56, 189, 248, 0.45);
 }
 
 /* ==========================================================================
    Main Content Area & Top App Bar
    ========================================================================== */
 .main-viewport {
-  margin-left: 250px;
+  margin-left: 92px;
   flex: 1;
   display: flex;
   flex-direction: column;
