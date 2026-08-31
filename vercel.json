@@ -1,21 +1,3 @@
 {
-  "cleanUrls": true,
-  "rewrites": [
-    {
-      "source": "/",
-      "destination": "/static/index.html"
-    },
-    {
-      "source": "/css/(.*)",
-      "destination": "/static/css/$1"
-    },
-    {
-      "source": "/js/(.*)",
-      "destination": "/static/js/$1"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/static/$1"
-    }
-  ]
+  "cleanUrls": true
 }
