@@ -6,6 +6,18 @@
 let appMappings = {};
 let activeCharts = {};
 
+// Configurable API Base for Vercel Frontend -> Render Backend integration
+const API_BASE = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
+    ? ""
+    : (window.RENDER_BACKEND_URL || localStorage.getItem("RENDER_BACKEND_URL") || "");
+
+function getApiUrl(endpoint) {
+    if (endpoint.startsWith("http")) return endpoint;
+    const cleanBase = API_BASE.replace(/\/+$/, "");
+    const cleanEndpoint = endpoint.startsWith("/") ? endpoint : `/${endpoint}`;
+    return cleanBase ? `${cleanBase}${cleanEndpoint}` : cleanEndpoint;
+}
+
 // DOM Ready
 document.addEventListener("DOMContentLoaded", async () => {
     initNavigation();
@@ -68,7 +80,7 @@ function initNavigation() {
 // Load Dropdown Mappings from FastAPI
 async function loadMappings() {
     try {
-        const res = await fetch("/api/mappings");
+        const res = await fetch(getApiUrl("/api/mappings"));
         const data = await res.json();
         appMappings = data;
 
@@ -411,9 +423,9 @@ function initForms() {
     });
 }
 
-// REST Helper
-async function apiPost(url, payload) {
+async function apiPost(endpoint, payload) {
     try {
+        const url = getApiUrl(endpoint);
         const res = await fetch(url, {
             method: "POST",
             headers: { "Content-Type": "application/json" },

@@ -1,10 +1,10 @@
 # 🚀 AI Career Mentor — Intelligence Suite
 
-> **Production-Ready, Enterprise AI Career Mentorship Platform** powered by **8 Machine Learning Models** trained on **1.6+ Million Industry Career Records** across 63 Specialized Professions. Features a **Material 3 + Glassmorphism Web Application** (FastAPI) and an **Interactive Analytics Dashboard** (Streamlit).
+> **Production-Ready, Enterprise AI Career Mentorship Platform** powered by **8 Machine Learning Models** trained on **1.6+ Million Industry Career Records** across 63 Specialized Professions. Features a high-performance **Material 3 + Glassmorphism Web Application** with a **FastAPI REST API Backend**.
 
 ---
 
-## 📁 Project Architecture & Folder Structure
+## 📁 Clean Architecture & Folder Structure
 
 ```
 d:/AI_Career_Mentor/
@@ -44,19 +44,17 @@ d:/AI_Career_Mentor/
 │
 ├── static/                          # 🎨 Modern Material 3 + Glassmorphism UI (Responsive)
 │   ├── index.html                           (Single-page Web Application)
-│   ├── css/
-│   │   └── m3-glass.css                     (Custom Glassmorphism, Dark Mode, Animations & Mobile Drawer)
-│   └── js/
-│       └── app.js                           (REST Client, GitHub Live Auto-Fetch, Timeline & Question Renderers)
+│   ├── css/m3-glass.css                     (Custom Glassmorphism, Dark Mode, Animations & Mobile Drawer)
+│   └── js/app.js                            (REST Client, GitHub Live Auto-Fetch, Dynamic API Connector)
 │
 ├── mentor_engine.py                 # ⚡ Core Python Inference Engine for all 8 ML Models
 ├── server.py                        # 🌐 FastAPI REST API Server (Port 8000)
-├── app.py                           # 📊 Streamlit Interactive Analytics Dashboard (Port 8501)
 ├── country_data.py                  # 🌍 Global Economic Matrix, Currencies & Numbeo 2026 PPP Indices
 ├── career_utils.py                  # 🛠️ Encoding & Text Utility Helpers
-├── requirements.txt                 # 📦 Project Dependencies
-├── run_webapp.bat                   # 🚀 1-Click Launcher: FastAPI Web App (http://localhost:8000)
-└── run_app.bat                      # 🚀 1-Click Launcher: Streamlit App (http://localhost:8501)
+├── requirements.txt                 # 📦 Python Dependencies (FastAPI, Scikit-Learn, Pandas)
+├── Procfile                         # 🚀 Render / Cloud Backend Start Command
+├── vercel.json                      # 🚀 Vercel Frontend Deployment Configuration
+└── run_webapp.bat                   # 🚀 1-Click Local Web App Launcher
 ```
 
 ---
@@ -82,26 +80,26 @@ d:/AI_Career_Mentor/
 
 ---
 
+## 🌐 Production Cloud Deployment Guide
+
+### 1. Deploy Backend to Render (100% Free):
+1. Go to **[Render.com](https://render.com/)** and sign in with GitHub.
+2. Click **New +** ➔ **Web Service** ➔ select `Rupam852/AI_Career_Mentor_BWU_AI_LAB_PROJECT`.
+3. Set:
+   - **Build Command:** `pip install -r requirements.txt`
+   - **Start Command:** `uvicorn server:app --host 0.0.0.0 --port $PORT`
+4. Click **Deploy Web Service** ➔ Note your backend URL (e.g. `https://ai-career-mentor.onrender.com`).
+
+### 2. Deploy Frontend to Vercel (100% Free):
+1. Go to **[Vercel.com](https://vercel.com/)** and import repository `Rupam852/AI_Career_Mentor_BWU_AI_LAB_PROJECT`.
+2. Vercel will automatically detect `vercel.json` and deploy the high-speed global frontend!
+
+---
+
 ## 🚀 How to Run Locally
 
-### 1. Launch FastAPI Web Application (Material 3 + Glassmorphism):
-Double-click [`run_webapp.bat`](file:///d:/AI_Career_Mentor/run_webapp.bat) or run:
+Double-click [`run_webapp.bat`](file:///d:/AI_Career_Mentor/run_webapp.bat) or execute:
 ```bash
 .\.venv\Scripts\uvicorn.exe server:app --host 0.0.0.0 --port 8000 --reload
 ```
 Open **`http://localhost:8000`** in your browser.
-
-### 2. Launch Streamlit Analytics Dashboard:
-Double-click [`run_app.bat`](file:///d:/AI_Career_Mentor/run_app.bat) or run:
-```bash
-.\.venv\Scripts\streamlit.exe run app.py
-```
-Open **`http://localhost:8501`** in your browser.
-
----
-
-## 🛠️ Tech Stack
-- **Backend & ML Inference**: Python 3.13, Scikit-Learn (HistGradientBoosting), Pandas, NumPy, Joblib
-- **Web API Server**: FastAPI, Uvicorn, Pydantic
-- **Web Frontend**: Vanilla HTML5, Material 3 Glassmorphism CSS, Vanilla ES6+ JavaScript, Google Material Symbols, Google Outfit Typography
-- **Analytics Dashboard**: Streamlit, Plotly Express
