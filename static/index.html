@@ -572,17 +572,17 @@
             <span class="badge-pill badge-blue">⚡ 9,300+ Curated Question Bank</span>
           </div>
 
-          <div class="form-grid">
+          <div class="form-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem;">
             <div class="m3-field">
-              <label class="m3-label">Industry Domain</label>
+              <label class="m3-label">🏢 Industry Domain</label>
               <select id="interview-industry" class="m3-select"></select>
             </div>
             <div class="m3-field">
-              <label class="m3-label">Target Role / Job Title</label>
+              <label class="m3-label">🎯 Target Role / Job Title</label>
               <select id="interview-job-title" class="m3-select"></select>
             </div>
             <div class="m3-field">
-              <label class="m3-label">Question Category Filter</label>
+              <label class="m3-label">📂 Question Category Filter</label>
               <select id="interview-type-filter" class="m3-select">
                 <option value="All">All Categories (Technical + Behavioral + Situational)</option>
                 <option value="Technical">Technical Questions Only</option>
@@ -591,15 +591,16 @@
               </select>
             </div>
             <div class="m3-field">
-              <label class="m3-label">Difficulty Filter</label>
+              <label class="m3-label">⚡ Difficulty Level</label>
               <select id="interview-diff-filter" class="m3-select">
                 <option value="All">All Difficulties (Easy, Medium, Hard)</option>
                 <option value="Easy">Easy (Fundamentals)</option>
                 <option value="Medium">Medium (Applied Engineering)</option>
                 <option value="Hard">Hard (Deep Architecture / System Design)</option>
               </select>
+            </div>
             <div class="m3-field">
-              <label class="m3-label">Number of Questions to Show</label>
+              <label class="m3-label">🔢 Number of Questions</label>
               <select id="interview-limit-filter" class="m3-select">
                 <option value="25">Top 25 Best Questions (Recommended)</option>
                 <option value="30">Top 30 Best Questions</option>
@@ -607,13 +608,13 @@
                 <option value="0">All Available Questions (300+)</option>
               </select>
             </div>
-            <div class="m3-field" style="grid-column: 1 / -1;">
-              <label class="m3-label">Search Keywords in Questions (Optional)</label>
-              <input type="text" id="interview-search-input" class="m3-input" placeholder="e.g. React, SQL, Microservices, Conflict, Outage, Performance">
+            <div class="m3-field">
+              <label class="m3-label">🔍 Search Keywords in Questions</label>
+              <input type="text" id="interview-search-input" class="m3-input" placeholder="e.g. React, SQL, Microservices, Conflict, Outage">
             </div>
           </div>
 
-          <button type="button" id="btn-load-interview-bank" class="m3-btn" style="margin-top: 0.5rem;">
+          <button type="button" id="btn-load-interview-bank" class="m3-btn" style="margin-top: 1.25rem; width: 100%; max-width: 360px;">
             <span class="material-symbols-outlined">psychology</span> ⚡ Generate Top Curated Interview Questions
           </button>
         </div>

@@ -98,9 +98,8 @@ async function loadMappings() {
         populateSelect("roadmap-curr-role", data.categories["03_roadmap"]?.current_role);
         populateSelect("roadmap-target-role", data.categories["03_roadmap"]?.target_role);
 
-        populateSelect("interview-industry", data.categories["04_interview"]?.industry);
-        populateSelect("interview-job-title", data.categories["04_interview"]?.job_title);
-        populateSelect("interview-type", data.categories["04_interview"]?.question_type);
+        populateSelect("interview-industry", data.categories["04_interview"]?.industry, "Technology");
+        populateSelect("interview-job-title", data.categories["04_interview"]?.job_title, "Full Stack Developer");
 
         populateSelect("linkedin-industry", data.categories["05_linkedin"]?.industry);
         populateSelect("linkedin-job-title", data.categories["05_linkedin"]?.current_job_title);
