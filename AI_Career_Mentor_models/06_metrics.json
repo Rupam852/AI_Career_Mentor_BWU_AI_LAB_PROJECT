@@ -1,0 +1,24 @@
+{
+  "dataset": "06_github_review",
+  "target": "review_rating",
+  "task": "classification",
+  "accuracy": 0.996975,
+  "n_rows": 200000,
+  "features": [
+    "public_repos",
+    "followers",
+    "following",
+    "total_stars",
+    "total_forks",
+    "contributions_last_year",
+    "longest_streak_days",
+    "readme_coverage_percentage",
+    "pinned_repos_count",
+    "top_repo_stars",
+    "has_bio",
+    "open_source_contributions",
+    "profile_score",
+    "languages_used_count",
+    "focus_area_enc"
+  ]
+}

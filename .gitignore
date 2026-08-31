@@ -1,0 +1,16 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large Raw CSV Datasets (Exceeding GitHub 100MB File Limit)
+AI_Career_Mentor_datasets/*.csv
+AI_Career_Mentor_models/*.csv

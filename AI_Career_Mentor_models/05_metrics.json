@@ -1,0 +1,21 @@
+{
+  "dataset": "05_linkedin_review",
+  "target": "review_rating",
+  "task": "classification",
+  "accuracy": 0.99445,
+  "n_rows": 200000,
+  "features": [
+    "has_profile_photo",
+    "has_banner_image",
+    "summary_word_count",
+    "connections_count",
+    "skills_count",
+    "total_endorsements",
+    "recommendations_count",
+    "posts_last_90_days",
+    "avg_engagement_per_post",
+    "profile_completeness_score",
+    "industry_enc",
+    "current_job_title_enc"
+  ]
+}

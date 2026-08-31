@@ -1,0 +1,23 @@
+{
+  "dataset": "07_salary_prediction",
+  "target": "predicted_salary_usd",
+  "task": "regression",
+  "r2": 0.9841001115375474,
+  "mae": 2748.9078571596606,
+  "n_rows": 200000,
+  "features": [
+    "years_experience",
+    "skills_count",
+    "certifications_count",
+    "industry_enc",
+    "job_title_enc",
+    "education_level_enc",
+    "degree_field_enc",
+    "country_enc",
+    "company_size_enc",
+    "work_type_enc",
+    "cost_of_living_index",
+    "purchasing_power_index"
+  ],
+  "enrichment": "cost_of_living_index & purchasing_power_index from Numbeo (real, Aug 2026); currency_code + exchange_rate_usd for local-currency conversion via country_data.py"
+}

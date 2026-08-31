@@ -1,0 +1,17 @@
+{
+  "dataset": "04_interview_questions",
+  "target": "difficulty_level",
+  "task": "classification",
+  "accuracy": 0.398975,
+  "majority_class_baseline": 0.399025,
+  "n_rows": 200000,
+  "features": [
+    "ideal_answer_length_words",
+    "eval_points_count",
+    "question_text_len",
+    "industry_enc",
+    "job_title_enc",
+    "question_type_enc"
+  ],
+  "note": "Accuracy sits at the majority-class baseline because difficulty_level is generated independently of the other columns in this synthetic dataset \u2014 there is no real signal to learn from job_title/industry/question_type/answer length. Regenerate the source data so difficulty depends on question characteristics if you need this model to be predictive."
+}

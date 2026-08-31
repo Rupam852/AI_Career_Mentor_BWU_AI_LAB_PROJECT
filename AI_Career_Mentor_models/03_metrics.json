@@ -1,0 +1,18 @@
+{
+  "dataset": "03_roadmap_generator",
+  "target": "total_duration_months",
+  "task": "regression",
+  "r2": 0.899864262804875,
+  "mae": 0.8930334863109212,
+  "n_rows": 200000,
+  "features": [
+    "weekly_hours_commitment",
+    "number_of_phases",
+    "focus_skills_count",
+    "difficulty_level_enc",
+    "has_target_cert",
+    "industry_enc",
+    "current_role_enc",
+    "target_role_enc"
+  ]
+}

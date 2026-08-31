@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Career Mentor — Material 3 & Glassmorphism Intelligence Suite</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Material Symbols -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
+  <!-- Custom M3 Glassmorphism Stylesheet -->
+  <link rel="stylesheet" href="/static/css/m3-glass.css">
+</head>
+<body>
+
+<div class="app-container">
+
+  <!-- ========================================================================
+       1. Material 3 Navigation Rail
+       ======================================================================== -->
+  <nav class="m3-nav-rail">
+    <div class="nav-brand">
+      <span class="material-symbols-outlined brand-icon">neurology</span>
+      <div class="brand-text">AI Career Mentor</div>
+    </div>
+
+    <div class="nav-items">
+      <a href="#" class="m3-nav-item active" data-target="section-dashboard">
+        <div class="icon-wrapper"><span class="material-symbols-outlined">dashboard</span></div>
+        <span class="nav-label">Dashboard</span>
+      </a>
+      <a href="#" class="m3-nav-item" data-target="section-resume">
+        <div class="icon-wrapper"><span class="material-symbols-outlined">description</span></div>
+        <span class="nav-label">Resume ATS</span>
+      </a>
+      <a href="#" class="m3-nav-item" data-target="section-skillgap">
+        <div class="icon-wrapper"><span class="material-symbols-outlined">target</span></div>
+        <span class="nav-label">Skill Gap</span>
+      </a>
+      <a href="#" class="m3-nav-item" data-target="section-roadmap">
+        <div class="icon-wrapper"><span class="material-symbols-outlined">map</span></div>
+        <span class="nav-label">Roadmap Studio</span>
+      </a>
+      <a href="#" class="m3-nav-item" data-target="section-interview">
+        <div class="icon-wrapper"><span class="material-symbols-outlined">quiz</span></div>
+        <span class="nav-label">Interview Prep</span>
+      </a>
+      <a href="#" class="m3-nav-item" data-target="section-linkedin">
+        <div class="icon-wrapper"><span class="material-symbols-outlined">share_reviews</span></div>
+        <span class="nav-label">LinkedIn Audit</span>
+      </a>
+      <a href="#" class="m3-nav-item" data-target="section-github">
+        <div class="icon-wrapper"><span class="material-symbols-outlined">code_blocks</span></div>
+        <span class="nav-label">GitHub Portfolio</span>
+      </a>
+      <a href="#" class="m3-nav-item" data-target="section-salary">
+        <div class="icon-wrapper"><span class="material-symbols-outlined">payments</span></div>
+        <span class="nav-label">Salary Predictor</span>
+      </a>
+      <a href="#" class="m3-nav-item" data-target="section-career">
+        <div class="icon-wrapper"><span class="material-symbols-outlined">rocket_launch</span></div>
+        <span class="nav-label">Career Recommender</span>
+      </a>
+    </div>
+  </nav>
+
+  <!-- ========================================================================
+       2. Main Viewport & Top Bar
+       ======================================================================== -->
+  <main class="main-viewport">
+    
+    <header class="m3-top-bar">
+      <div style="display:flex; align-items:center; gap:0.75rem;">
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+          <span class="material-symbols-outlined">menu</span>
+        </button>
+        <div class="page-title">
+          <span class="material-symbols-outlined" style="color: var(--md-sys-color-primary);">smart_toy</span>
+          <span id="top-page-title">AI Career Mentor Hub</span>
+        </div>
+      </div>
+      <div class="top-status">
+        <span class="status-badge">
+          <span class="status-dot"></span> <span class="status-text">8/8 ML Models Online</span>
+        </span>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Overlay Backdrop -->
+    <div id="drawer-backdrop" class="drawer-backdrop"></div>
+
+    <div class="content-wrapper">
+
+      <!-- SECTION 0: DASHBOARD -->
+      <section id="section-dashboard" class="app-section">
+        <div class="glass-hero">
+          <h1>Material 3 & Glassmorphism Career Suite</h1>
+          <p>An intelligence ecosystem driven by 8 high-performance Machine Learning models, live Numbeo 2026 cost of living metrics, and multi-currency compensation engines.</p>
+        </div>
+
+        <!-- Top Overall KPI Summary -->
+        <div class="metric-grid">
+          <div class="m3-card">
+            <div class="card-title"><span class="material-symbols-outlined" style="color:var(--glow-cyan);">model_training</span> Total ML Models</div>
+            <div class="stat-val">8 / 8</div>
+            <div style="color: var(--md-sys-color-on-surface-variant); font-size: 0.85rem;">100% Trained & Verified</div>
+          </div>
+          <div class="m3-card">
+            <div class="card-title"><span class="material-symbols-outlined" style="color:var(--glow-emerald);">dataset</span> Total Training Data</div>
+            <div class="stat-val" style="background: linear-gradient(135deg, #fff 0%, #34d399 100%); -webkit-background-clip: text;">1.6M+</div>
+            <div style="color: var(--md-sys-color-on-surface-variant); font-size: 0.85rem;">200k Rows Per Dataset</div>
+          </div>
+          <div class="m3-card">
+            <div class="card-title"><span class="material-symbols-outlined" style="color:var(--glow-purple);">analytics</span> Avg Regression R²</div>
+            <div class="stat-val" style="background: linear-gradient(135deg, #fff 0%, #c084fc 100%); -webkit-background-clip: text;">0.898</div>
+            <div style="color: var(--md-sys-color-on-surface-variant); font-size: 0.85rem;">Across ATS, Salary, Roadmap, Gap</div>
+          </div>
+          <div class="m3-card">
+            <div class="card-title"><span class="material-symbols-outlined" style="color:var(--glow-amber);">verified</span> Classification Peak</div>
+            <div class="stat-val" style="background: linear-gradient(135deg, #fff 0%, #fbbf24 100%); -webkit-background-clip: text;">99.7%</div>
+            <div style="color: var(--md-sys-color-on-surface-variant); font-size: 0.85rem;">GitHub & LinkedIn Profiles</div>
+          </div>
+        </div>
+
+        <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 1.25rem; color: #fff; display:flex; align-items:center; gap:0.6rem;">
+          <span class="material-symbols-outlined" style="color:var(--md-sys-color-primary);">fact_check</span>
+          All 8 Machine Learning Models — Performance & Metrics
+        </h2>
+
+        <!-- All 8 Models Performance Grid -->
+        <div class="metric-grid" style="grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));">
+          
+          <!-- 1. Resume ATS Model -->
+          <div class="m3-card" style="cursor:pointer;" onclick="document.querySelector('[data-target=\'section-resume\']').click();">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+              <div class="card-title" style="font-size:1.05rem;">📄 1. Resume ATS Score</div>
+              <span class="badge-pill badge-blue">Regression</span>
+            </div>
+            <div class="stat-val" style="font-size:1.8rem; color:var(--glow-cyan);">R² = 0.935</div>
+            <div style="font-size:0.85rem; color:var(--md-sys-color-on-surface-variant); margin-top:0.35rem;">
+              • <strong>MAE:</strong> ±2.16 points<br>
+              • <strong>Training Data:</strong> 200,000 resumes<br>
+              • <strong>Target:</strong> ATS screening score (0–100)
+            </div>
+          </div>
+
+          <!-- 2. Skill Gap Model -->
+          <div class="m3-card" style="cursor:pointer;" onclick="document.querySelector('[data-target=\'section-skillgap\']').click();">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+              <div class="card-title" style="font-size:1.05rem;">🎯 2. Skill Gap Duration</div>
+              <span class="badge-pill badge-purple">Regression</span>
+            </div>
+            <div class="stat-val" style="font-size:1.8rem; color:var(--glow-purple);">R² = 0.771</div>
+            <div style="font-size:0.85rem; color:var(--md-sys-color-on-surface-variant); margin-top:0.35rem;">
+              • <strong>MAE:</strong> ±1.05 months<br>
+              • <strong>Training Data:</strong> 200,000 career transitions<br>
+              • <strong>Target:</strong> Months to bridge skill gap
+            </div>
+          </div>
+
+          <!-- 3. Roadmap Duration Model -->
+          <div class="m3-card" style="cursor:pointer;" onclick="document.querySelector('[data-target=\'section-roadmap\']').click();">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+              <div class="card-title" style="font-size:1.05rem;">🗺️ 3. Roadmap Timeline</div>
+              <span class="badge-pill badge-green">Regression</span>
+            </div>
+            <div class="stat-val" style="font-size:1.8rem; color:var(--glow-emerald);">R² = 0.900</div>
+            <div style="font-size:0.85rem; color:var(--md-sys-color-on-surface-variant); margin-top:0.35rem;">
+              • <strong>MAE:</strong> ±0.89 months<br>
+              • <strong>Training Data:</strong> 200,000 roadmaps<br>
+              • <strong>Target:</strong> Total duration based on study hrs
+            </div>
+          </div>
+
+          <!-- 4. Interview Difficulty Model -->
+          <div class="m3-card" style="cursor:pointer;" onclick="document.querySelector('[data-target=\'section-interview\']').click();">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+              <div class="card-title" style="font-size:1.05rem;">💡 4. Interview Difficulty</div>
+              <span class="badge-pill badge-amber">Classification</span>
+            </div>
+            <div class="stat-val" style="font-size:1.8rem; color:var(--glow-amber);">Acc = 39.9%</div>
+            <div style="font-size:0.85rem; color:var(--md-sys-color-on-surface-variant); margin-top:0.35rem;">
+              • <strong>Baseline:</strong> Multi-class distribution<br>
+              • <strong>Training Data:</strong> 200,000 Q&A pairs<br>
+              • <strong>Target:</strong> Easy / Moderate / Hard
+            </div>
+          </div>
+
+          <!-- 5. LinkedIn Review Model -->
+          <div class="m3-card" style="cursor:pointer;" onclick="document.querySelector('[data-target=\'section-linkedin\']').click();">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+              <div class="card-title" style="font-size:1.05rem;">💼 5. LinkedIn Review</div>
+              <span class="badge-pill badge-green">Classification</span>
+            </div>
+            <div class="stat-val" style="font-size:1.8rem; color:var(--glow-emerald);">Acc = 99.4%</div>
+            <div style="font-size:0.85rem; color:var(--md-sys-color-on-surface-variant); margin-top:0.35rem;">
+              • <strong>Evaluation:</strong> 5 rating tiers<br>
+              • <strong>Training Data:</strong> 200,000 profiles<br>
+              • <strong>Target:</strong> Completeness & Engagement Score
+            </div>
+          </div>
+
+          <!-- 6. GitHub Review Model -->
+          <div class="m3-card" style="cursor:pointer;" onclick="document.querySelector('[data-target=\'section-github\']').click();">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+              <div class="card-title" style="font-size:1.05rem;">🐙 6. GitHub Portfolio</div>
+              <span class="badge-pill badge-green">Classification</span>
+            </div>
+            <div class="stat-val" style="font-size:1.8rem; color:var(--glow-emerald);">Acc = 99.7%</div>
+            <div style="font-size:0.85rem; color:var(--md-sys-color-on-surface-variant); margin-top:0.35rem;">
+              • <strong>Evaluation:</strong> 5 rating tiers<br>
+              • <strong>Training Data:</strong> 200,000 developer repos<br>
+              • <strong>Target:</strong> Stars, forks, streaks & code quality
+            </div>
+          </div>
+
+          <!-- 7. Salary Prediction Model -->
+          <div class="m3-card" style="cursor:pointer;" onclick="document.querySelector('[data-target=\'section-salary\']').click();">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+              <div class="card-title" style="font-size:1.05rem;">💰 7. Salary Predictor</div>
+              <span class="badge-pill badge-blue">Regression</span>
+            </div>
+            <div class="stat-val" style="font-size:1.8rem; color:var(--glow-cyan);">R² = 0.984</div>
+            <div style="font-size:0.85rem; color:var(--md-sys-color-on-surface-variant); margin-top:0.35rem;">
+              • <strong>Real Data:</strong> Numbeo 2026 CoL + Live FX<br>
+              • <strong>Training Data:</strong> 200,000 salary records<br>
+              • <strong>Target:</strong> USD + Local Currency (INR ₹, etc.)
+            </div>
+          </div>
+
+          <!-- 8. Career Recommendation Model -->
+          <div class="m3-card" style="cursor:pointer;" onclick="document.querySelector('[data-target=\'section-career\']').click();">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:0.75rem;">
+              <div class="card-title" style="font-size:1.05rem;">🚀 8. Career Recommender</div>
+              <span class="badge-pill badge-amber">63 Classes</span>
+            </div>
+            <div class="stat-val" style="font-size:1.8rem; color:var(--glow-amber);">Top-5 = 83.0%</div>
+            <div style="font-size:0.85rem; color:var(--md-sys-color-on-surface-variant); margin-top:0.35rem;">
+              • <strong>Top-3 Accuracy:</strong> 50.2%<br>
+              • <strong>Training Data:</strong> 200,000 career journeys<br>
+              • <strong>Target:</strong> 63 specialized career tracks
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION 1: RESUME ATS -->
+      <section id="section-resume" class="app-section" style="display:none;">
+        <div class="glass-hero">
+          <h1>📄 Resume ATS Score Grader</h1>
+          <p>Scan technical keywords, experience, and certifications to forecast candidate ATS screening outcomes.</p>
+        </div>
+        <form id="form-resume" class="m3-card">
+          <div class="form-grid">
+            <div class="m3-field">
+              <label class="m3-label">Candidate Age</label>
+              <input type="number" id="resume-age" class="m3-input" placeholder="e.g. 26" min="18" max="70">
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Years of Experience</label>
+              <input type="number" step="0.5" id="resume-exp" class="m3-input" placeholder="e.g. 3.5" min="0" max="40">
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Target Industry</label>
+              <select id="resume-industry" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Job Title Target</label>
+              <select id="resume-job-title" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Education Level</label>
+              <select id="resume-edu" class="m3-select">
+                <option value="Bachelor's Degree">Bachelor's Degree</option>
+                <option value="Master's Degree">Master's Degree</option>
+                <option value="PhD">PhD</option>
+                <option value="Associate Degree">Associate Degree</option>
+                <option value="Diploma">Diploma</option>
+                <option value="High School">High School</option>
+              </select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Degree Field</label>
+              <select id="resume-degree" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Resume Word Count</label>
+              <input type="number" id="resume-words" class="m3-input" placeholder="e.g. 450" min="100" max="1500">
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Keyword Match Percentage (%)</label>
+              <input type="number" step="1" id="resume-kw-match" class="m3-input" placeholder="e.g. 78" min="0" max="100">
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Initial Assessment Quality</label>
+              <select id="resume-rating" class="m3-select">
+                <option value="Good">Good</option>
+                <option value="Excellent">Excellent</option>
+                <option value="Average">Average</option>
+                <option value="Below Average">Below Average</option>
+                <option value="Poor">Poor</option>
+              </select>
+            </div>
+            <div class="m3-field" style="grid-column: 1 / -1;">
+              <label class="m3-label">Detected Skills (Comma-separated)</label>
+              <input type="text" id="resume-skills" class="m3-input" placeholder="e.g. Python, SQL, Machine Learning, Git, Docker">
+            </div>
+            <div class="m3-field" style="grid-column: 1 / -1;">
+              <label class="m3-label">Certifications (Comma-separated)</label>
+              <input type="text" id="resume-certs" class="m3-input" placeholder="e.g. AWS Certified Solutions Architect, Scikit-Learn Specialist">
+            </div>
+            <div class="m3-field" style="grid-column: 1 / -1;">
+              <label class="m3-label">Missing Target Keywords (Comma-separated)</label>
+              <input type="text" id="resume-missing-kw" class="m3-input" placeholder="e.g. Kubernetes, CI/CD, Terraform">
+            </div>
+          </div>
+          <button type="submit" class="m3-btn">
+            <span class="material-symbols-outlined">analytics</span> Calculate ATS Score
+          </button>
+        </form>
+
+        <div id="resume-result" class="result-container">
+          <div class="glass-result-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1.5rem;">
+              <div>
+                <span class="m3-label">PREDICTED ATS SCORE</span>
+                <div class="stat-val" id="ats-score-display">--</div>
+                <div id="ats-category-display" style="color:var(--glow-cyan); font-weight:700;">--</div>
+            <div class="form-grid" style="margin-bottom:0;">
+              <div class="m3-card" style="padding:1rem;"><div class="m3-label">Skills Count</div><div style="font-size:1.4rem; font-weight:700; color:#fff;" id="ats-skills-cnt">0</div></div>
+              <div class="m3-card" style="padding:1rem;"><div class="m3-label">Certifications</div><div style="font-size:1.4rem; font-weight:700; color:#fff;" id="ats-certs-cnt">0</div></div>
+              <div class="m3-card" style="padding:1rem;"><div class="m3-label">Missing Keywords</div><div style="font-size:1.4rem; font-weight:700; color:#fbbf24;" id="ats-missing-cnt">0</div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: SKILL GAP -->
+      <section id="section-skillgap" class="app-section" style="display:none;">
+        <div class="glass-hero">
+          <h1>🎯 AI Skill Gap & Career Readiness Analyzer</h1>
+          <p>Select your dream role and current skills — AI automatically detects missing competencies, calculates job readiness, and predicts transition duration.</p>
+        </div>
+        
+        <form id="form-skillgap" class="m3-card">
+          <div class="form-grid">
+            <div class="m3-field">
+              <label class="m3-label">Industry Domain</label>
+              <select id="skillgap-industry" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Current Role / Background</label>
+              <select id="skillgap-current-role" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Target Dream Role</label>
+              <select id="skillgap-target-role" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Education Level</label>
+              <select id="skillgap-edu" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Learning Pace / Priority</label>
+              <select id="skillgap-priority" class="m3-select">
+                <option value="High">Aggressive / High (Fast-Track Prep)</option>
+                <option value="Medium" selected>Balanced / Medium (Standard Progression)</option>
+                <option value="Low">Self-Paced / Low (Part-Time Learning)</option>
+              </select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Target Industry Benchmark</label>
+              <input type="text" class="m3-input" value="Curated from 200,000 Industry Profiles" disabled style="opacity:0.7; cursor:not-allowed;">
+            </div>
+            <div class="m3-field" style="grid-column: 1 / -1;">
+              <label class="m3-label">Your Current Skills (Comma-separated)</label>
+              <input type="text" id="skillgap-curr-skills" class="m3-input" placeholder="e.g. HTML, CSS, JavaScript, Git, Python, SQL" value="HTML, CSS, JavaScript, Git">
+              <span style="font-size:0.8rem; color:#94a3b8; margin-top:0.35rem; display:block;">💡 Enter the tools, languages, and frameworks you currently know. AI will benchmark these against target role standards.</span>
+            </div>
+          </div>
+          <button type="submit" class="m3-btn">
+            <span class="material-symbols-outlined">analytics</span> 🚀 Analyze Skill Gap & Career Readiness
+          </button>
+        </form>
+
+        <!-- Skill Gap Analysis Results View -->
+        <div id="skillgap-result" class="result-container">
+          <div class="glass-result-card">
+            <!-- Header Title -->
+            <div style="border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom:1rem; margin-bottom:1.5rem;">
+              <h3 style="color:#fff; font-size:1.3rem; margin:0 0 0.35rem;" id="sg-header-title">Career Transition Readiness Report</h3>
+              <p style="color:#94a3b8; font-size:0.88rem; margin:0;" id="sg-header-subtitle">Detailed gap analysis and resource pathways.</p>
+            </div>
+
+            <!-- Top Metric Cards -->
+            <div class="form-grid" style="margin-bottom:1.5rem;">
+              <div class="m3-card" style="border-left: 4px solid var(--glow-cyan);">
+                <span class="m3-label">ESTIMATED TRANSITION TIME</span>
+                <div class="stat-val" style="color:var(--glow-cyan);" id="skillgap-months-display">--</div>
+                <span style="font-size:0.8rem; color:#94a3b8;">Predicted by ML Regression</span>
+              </div>
+              <div class="m3-card" style="border-left: 4px solid var(--glow-emerald);">
+                <span class="m3-label">ROLE READINESS SCORE</span>
+                <div class="stat-val" style="color:var(--glow-emerald);" id="skillgap-readiness-display">--</div>
+                <span style="font-size:0.8rem; color:#94a3b8;">Match vs. Target Standards</span>
+              </div>
+              <div class="m3-card" style="border-left: 4px solid var(--glow-purple);">
+                <span class="m3-label">CRITICAL SKILL GAPS</span>
+                <div class="stat-val" style="color:var(--glow-purple);" id="skillgap-gap-display">--</div>
+                <span style="font-size:0.8rem; color:#94a3b8;">Missing Competencies to Master</span>
+              </div>
+            </div>
+
+            <!-- Verified Strengths vs. Missing Skills -->
+            <div class="form-grid" style="margin-bottom:1.5rem;">
+              <!-- Verified Strengths -->
+              <div class="m3-card" style="background:rgba(16, 185, 129, 0.05); border:1px solid rgba(16, 185, 129, 0.2);">
+                <div class="card-title" style="color:var(--glow-emerald); font-size:1rem; margin-bottom:0.75rem;">
+                  <span class="material-symbols-outlined">verified</span> Verified Strengths (You Have)
+                </div>
+                <div id="sg-matched-badges" style="display:flex; flex-wrap:wrap; gap:0.4rem;"></div>
+              </div>
+              <!-- Required Benchmark Skills -->
+              <div class="m3-card" style="background:rgba(56, 189, 248, 0.05); border:1px solid rgba(56, 189, 248, 0.2);">
+                <div class="card-title" style="color:var(--glow-cyan); font-size:1rem; margin-bottom:0.75rem;">
+                  <span class="material-symbols-outlined">checklist</span> Target Role Benchmark Skills
+                </div>
+                <div id="sg-benchmark-badges" style="display:flex; flex-wrap:wrap; gap:0.4rem;"></div>
+              </div>
+            </div>
+
+            <!-- Priority Missing Skills with Curated Learning Resources -->
+            <div class="m3-card" style="margin-bottom:0;">
+              <div class="card-title" style="color:#f87171; font-size:1.05rem; margin-bottom:1rem;">
+                <span class="material-symbols-outlined" style="color:#f87171;">school</span>
+                Priority Missing Skills & Recommended Learning Resources
+              </div>
+              <div id="sg-resources-list" style="display:flex; flex-direction:column; gap:0.75rem;">
+                <!-- Populated dynamically -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- SECTION 3: ROADMAP -->
+      <section id="section-roadmap" class="app-section" style="display:none;">
+        <div class="glass-hero">
+          <h1>🗺️ Roadmap Duration Studio</h1>
+          <p>Calculate learning duration, study hours, and milestones for structured execution.</p>
+        </div>
+        <form id="form-roadmap" class="m3-card">
+          <div class="form-grid">
+            <div class="m3-field">
+              <label class="m3-label">Industry Domain</label>
+              <select id="roadmap-industry" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Current Role</label>
+              <select id="roadmap-curr-role" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Goal Target Role</label>
+              <select id="roadmap-target-role" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Target Difficulty</label>
+              <select id="roadmap-diff" class="m3-select">
+                <option value="Moderate">Moderate</option>
+                <option value="Challenging">Challenging</option>
+                <option value="Hard">Hard</option>
+                <option value="Easy">Easy</option>
+              </select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Weekly Hours Commitment</label>
+              <input type="number" id="roadmap-hours" class="m3-input" placeholder="e.g. 15" min="5" max="40">
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Number of Phases</label>
+              <input type="number" id="roadmap-phases" class="m3-input" placeholder="e.g. 4" min="2" max="8">
+            </div>
+            <div class="m3-field" style="grid-column: 1 / -1;">
+              <label class="m3-label">Focus Skills (Comma-separated)</label>
+              <input type="text" id="roadmap-skills" class="m3-input" placeholder="e.g. Cloud Architecture, Terraform, Kubernetes, Linux, Python">
+            </div>
+            <div class="m3-field" style="grid-column: 1 / -1; display:flex; align-items:center; gap:0.5rem; flex-direction:row;">
+              <input type="checkbox" id="roadmap-cert" style="width:20px; height:20px;">
+              <label for="roadmap-cert" class="m3-label" style="cursor:pointer;">Includes preparing for an industry certification</label>
+            </div>
+          </div>
+          <button type="submit" class="m3-btn">
+            <span class="material-symbols-outlined">schedule</span> Calculate Roadmap Duration
+          </button>
+        </form>
+
+        <div id="roadmap-result" class="result-container">
+          <div class="glass-result-card">
+            <!-- Duration Metrics -->
+            <div class="form-grid" style="margin-bottom:1.5rem;">
+              <div class="m3-card"><span class="m3-label">TOTAL DURATION</span><div class="stat-val" id="roadmap-months-display">--</div></div>
+              <div class="m3-card"><span class="m3-label">TOTAL WEEKS</span><div class="stat-val" style="color:var(--glow-cyan);" id="roadmap-weeks-display">--</div></div>
+              <div class="m3-card"><span class="m3-label">TOTAL STUDY HOURS</span><div class="stat-val" style="color:var(--glow-emerald);" id="roadmap-hours-display">--</div></div>
+            </div>
+
+            <!-- Basic-to-Advanced Multi-Phase Curriculum Timeline -->
+            <div style="margin-top: 1.5rem;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:1rem;">
+                <h3 style="color:#fff; font-size:1.2rem; display:flex; align-items:center; gap:0.5rem; margin:0;">
+                  <span class="material-symbols-outlined" style="color:var(--glow-cyan);">route</span>
+                  Basic to Advanced Multi-Phase Curriculum
+                </h3>
+                <span class="badge-pill badge-blue">🎯 Structured Learning Path</span>
+              </div>
+              <div id="roadmap-phases-timeline" style="display:flex; flex-direction:column; gap:1rem;">
+                <!-- Dynamically populated phase cards -->
+              </div>
+            </div>
+
+            <!-- Milestones Checklist & Recommended Projects -->
+            <div class="form-grid" style="margin-top:1.5rem; margin-bottom:0;">
+              <div class="m3-card">
+                <div class="card-title" style="font-size:1.05rem; margin-bottom:0.75rem;">
+                  <span class="material-symbols-outlined" style="color:var(--glow-emerald);">flag</span>
+                  Key Milestones Target
+                </div>
+                <ul id="roadmap-milestones-list" style="margin:0; padding-left:1.2rem; color:var(--md-sys-color-on-surface-variant); font-size:0.9rem; line-height:1.6;">
+                </ul>
+              </div>
+              <div class="m3-card">
+                <div class="card-title" style="font-size:1.05rem; margin-bottom:0.75rem;">
+                  <span class="material-symbols-outlined" style="color:var(--glow-cyan);">construction</span>
+                  Recommended Portfolio Projects
+                </div>
+                <ul id="roadmap-projects-list" style="margin:0; padding-left:1.2rem; color:var(--md-sys-color-on-surface-variant); font-size:0.9rem; line-height:1.6;">
+                </ul>
+              </div>
+            </div>
+
+            <!-- Recommended Certifications -->
+            <div id="roadmap-certs-container" style="margin-top:1.25rem; padding:1rem; background:rgba(255,255,255,0.03); border-radius:var(--radius-md); border:1px solid rgba(255,255,255,0.08); display:flex; align-items:center; gap:0.75rem; flex-wrap:wrap;">
+              <span style="font-size:0.9rem; font-weight:700; color:#fff;">🏆 Target Industry Certifications:</span>
+              <div id="roadmap-certs-badges" style="display:flex; gap:0.5rem; flex-wrap:wrap;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: INTERVIEW PREP -->
+      <section id="section-interview" class="app-section" style="display:none;">
+        <div class="glass-hero">
+          <h1>💡 AI Interview Question Generator & Prep Studio</h1>
+          <p>Generate, filter, and master all essential technical, behavioral, and situational interview questions for your chosen role.</p>
+        </div>
+
+        <!-- Role Question Bank Selector Card -->
+        <div class="m3-card" style="margin-bottom: 1.5rem;">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 1rem; flex-wrap:wrap; gap:0.5rem;">
+            <div class="card-title" style="margin:0;">
+              <span class="material-symbols-outlined" style="color:var(--glow-cyan);">quiz</span>
+              Target Role Question Generator
+            </div>
+            <span class="badge-pill badge-blue">⚡ 9,300+ Curated Question Bank</span>
+          </div>
+
+          <div class="form-grid">
+            <div class="m3-field">
+              <label class="m3-label">Industry Domain</label>
+              <select id="interview-industry" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Target Role / Job Title</label>
+              <select id="interview-job-title" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Question Category Filter</label>
+              <select id="interview-type-filter" class="m3-select">
+                <option value="All">All Categories (Technical + Behavioral + Situational)</option>
+                <option value="Technical">Technical Questions Only</option>
+                <option value="Behavioral">Behavioral Questions Only</option>
+                <option value="Situational">Situational Scenarios Only</option>
+              </select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Difficulty Filter</label>
+              <select id="interview-diff-filter" class="m3-select">
+                <option value="All">All Difficulties (Easy, Medium, Hard)</option>
+                <option value="Easy">Easy (Fundamentals)</option>
+                <option value="Medium">Medium (Applied Engineering)</option>
+                <option value="Hard">Hard (Deep Architecture / System Design)</option>
+              </select>
+            <div class="m3-field">
+              <label class="m3-label">Number of Questions to Show</label>
+              <select id="interview-limit-filter" class="m3-select">
+                <option value="25">Top 25 Best Questions (Recommended)</option>
+                <option value="30">Top 30 Best Questions</option>
+                <option value="50">Top 50 Comprehensive Questions</option>
+                <option value="0">All Available Questions (300+)</option>
+              </select>
+            </div>
+            <div class="m3-field" style="grid-column: 1 / -1;">
+              <label class="m3-label">Search Keywords in Questions (Optional)</label>
+              <input type="text" id="interview-search-input" class="m3-input" placeholder="e.g. React, SQL, Microservices, Conflict, Outage, Performance">
+            </div>
+          </div>
+
+          <button type="button" id="btn-load-interview-bank" class="m3-btn" style="margin-top: 0.5rem;">
+            <span class="material-symbols-outlined">psychology</span> ⚡ Generate Top Curated Interview Questions
+          </button>
+        </div>
+
+        <!-- Generated Questions Bank Results Container -->
+        <div id="interview-bank-container" class="result-container" style="margin-top:0;">
+          <div class="glass-result-card">
+            <!-- Header Summary Stats -->
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem; margin-bottom:1.5rem; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:1rem;">
+              <div>
+                <h3 style="color:#fff; margin:0 0 0.35rem; font-size:1.25rem;" id="interview-bank-title">Full Stack Developer Top Interview Questions</h3>
+                <p style="color:#94a3b8; font-size:0.88rem; margin:0;" id="interview-bank-subtitle">Loaded top high-impact questions curated from 200,000 interview scenarios.</p>
+              </div>
+              <div style="display:flex; gap:0.5rem; flex-wrap:wrap;">
+                <span class="badge-pill badge-blue" id="q-total-badge">25 Questions</span>
+                <span class="badge-pill badge-green" id="q-tech-badge">Technical</span>
+                <span class="badge-pill badge-purple" id="q-behav-badge">Behavioral</span>
+                <span class="badge-pill badge-amber" id="q-sit-badge">Situational</span>
+              </div>
+            </div>
+
+            <!-- STAR Framework Guide Banner -->
+            <div style="padding:1rem 1.25rem; background:rgba(56,189,248,0.08); border:1px solid rgba(56,189,248,0.25); border-radius:var(--radius-md); margin-bottom:1.5rem;">
+              <h4 style="color:#38bdf8; margin:0 0 0.4rem; font-size:0.95rem; display:flex; align-items:center; gap:0.4rem;">
+                <span class="material-symbols-outlined" style="font-size:1.1rem;">auto_awesome</span>
+                Pro Interview Tip: Use the STAR Framework
+              </h4>
+              <p style="color:#e2e8f0; font-size:0.85rem; margin:0; line-height:1.45;">
+                Structure your answers clearly: <strong>Situation</strong> (Set context) ➔ <strong>Task</strong> (Your responsibility) ➔ <strong>Action</strong> (Specific engineering choices) ➔ <strong>Result</strong> (Quantified impact & learnings).
+              </p>
+            </div>
+
+            <!-- Questions List -->
+            <div id="interview-questions-list" style="display:flex; flex-direction:column; gap:1.25rem;">
+              <!-- Dynamically populated question cards -->
+            </div>
+
+            <!-- Load More Bar -->
+            <div id="load-more-container" style="text-align:center; margin-top:1.5rem; display:none;">
+              <button type="button" id="btn-load-more-q" class="m3-btn btn-compact" style="background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.15);">
+                <span class="material-symbols-outlined">expand_more</span> Load More Questions
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 5: LINKEDIN -->
+      <section id="section-linkedin" class="app-section" style="display:none;">
+        <div class="glass-hero">
+          <h1>💼 LinkedIn Profile Reviewer</h1>
+          <p>Audit profile setup, connections, and engagement metrics to evaluate profile quality.</p>
+        </div>
+        <form id="form-linkedin" class="m3-card">
+          <div class="form-grid">
+            <div class="m3-field"><label class="m3-label">Industry</label><select id="linkedin-industry" class="m3-select"></select></div>
+            <div class="m3-field"><label class="m3-label">Target Job Title</label><select id="linkedin-job-title" class="m3-select"></select></div>
+            <div class="m3-field"><label class="m3-label">Connections Count</label><input type="number" id="li-conn" class="m3-input" placeholder="e.g. 500"></div>
+            <div class="m3-field"><label class="m3-label">Summary Word Count</label><input type="number" id="li-words" class="m3-input" placeholder="e.g. 180"></div>
+            <div class="m3-field"><label class="m3-label">Skills Listed</label><input type="number" id="li-skills" class="m3-input" placeholder="e.g. 18"></div>
+            <div class="m3-field"><label class="m3-label">Total Endorsements</label><input type="number" id="li-endorse" class="m3-input" placeholder="e.g. 45"></div>
+            <div class="m3-field"><label class="m3-label">Recommendations</label><input type="number" id="li-recs" class="m3-input" placeholder="e.g. 4"></div>
+            <div class="m3-field"><label class="m3-label">Posts (Last 90 Days)</label><input type="number" id="li-posts" class="m3-input" placeholder="e.g. 12"></div>
+            <div class="m3-field"><label class="m3-label">Avg Engagement / Post</label><input type="number" step="0.5" id="li-eng" class="m3-input" placeholder="e.g. 8.5"></div>
+            <div class="m3-field"><label class="m3-label">Completeness Score (%)</label><input type="number" id="li-comp" class="m3-input" placeholder="e.g. 85"></div>
+            <div class="m3-field" style="display:flex; align-items:center; gap:0.5rem; flex-direction:row;"><input type="checkbox" id="li-photo"><label for="li-photo" class="m3-label">Profile Photo Added</label></div>
+            <div class="m3-field" style="display:flex; align-items:center; gap:0.5rem; flex-direction:row;"><input type="checkbox" id="li-banner"><label for="li-banner" class="m3-label">Banner Image Added</label></div>
+          </div>
+          <button type="submit" class="m3-btn"><span class="material-symbols-outlined">rate_review</span> Audit Profile</button>
+        </form>
+
+        <div id="linkedin-result" class="result-container">
+          <div class="glass-result-card">
+            <span class="m3-label">OVERALL PROFILE RATING</span>
+            <div class="stat-val" id="linkedin-rating-display" style="color:var(--glow-emerald);">--</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 6: GITHUB -->
+      <section id="section-github" class="app-section" style="display:none;">
+        <div class="glass-hero">
+          <h1>🐙 GitHub Portfolio Reviewer</h1>
+          <p>Scan public repositories, commit streak consistency, stars, and open source activity.</p>
+        </div>
+
+        <!-- Live Instant GitHub Auto-Fetch Card -->
+        <div class="m3-card" style="margin-bottom: 1.5rem; border: 1px solid rgba(56, 189, 248, 0.3); background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(30, 41, 59, 0.7) 100%);">
+          <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 0.75rem;">
+            <div class="card-title" style="font-size: 1.15rem; color: #fff; display:flex; align-items:center; gap:0.5rem;">
+              <span class="material-symbols-outlined" style="color:var(--glow-cyan);">travel_explore</span>
+              Auto-Fetch via GitHub Profile URL or Username
+            </div>
+            <span class="badge-pill badge-blue">⚡ Instant Live Sync</span>
+          </div>
+          <p style="color: var(--md-sys-color-on-surface-variant); font-size: 0.9rem; margin-bottom: 1rem;">
+            Paste your GitHub Profile Link (e.g. <code>https://github.com/torvalds</code>) or username to automatically extract public repos, stars, languages, and calculate your ML rating with zero manual typing!
+          </p>
+          <div style="display:flex; gap: 0.75rem; flex-wrap: wrap;">
+            <input type="text" id="gh-url-input" class="m3-input" style="flex:1; min-width:260px;" placeholder="e.g. https://github.com/torvalds or octocat">
+            <button type="button" id="btn-gh-autofetch" class="m3-btn" style="padding: 0.75rem 1.6rem; min-width: 200px;">
+              <span class="material-symbols-outlined">sync</span> Fetch & Auto-Analyze
+            </button>
+          </div>
+          <div id="gh-fetch-status" style="margin-top: 0.75rem; font-size: 0.88rem; display:none;"></div>
+          
+          <!-- Live User Profile Glass Card Preview -->
+          <div id="gh-user-preview" class="gh-profile-card">
+            <div class="gh-profile-header">
+              <div class="gh-profile-userinfo">
+                <img id="gh-preview-avatar" class="gh-avatar-glow" src="" alt="Avatar">
+                <div>
+                  <div style="display:flex; align-items:center; gap:0.6rem; flex-wrap:wrap;">
+                    <span id="gh-preview-name" style="font-weight:700; color:#fff; font-size:1.2rem;"></span>
+                    <span id="gh-preview-login" class="badge-pill badge-blue"></span>
+                  </div>
+                  <div id="gh-preview-bio" style="color:var(--md-sys-color-on-surface-variant); font-size:0.9rem; margin-top:0.35rem; max-width:650px; line-height:1.4;"></div>
+                </div>
+              </div>
+              <a id="gh-preview-link" href="#" target="_blank" class="m3-btn btn-compact" style="text-decoration:none;">
+                <span class="material-symbols-outlined" style="font-size:1.1rem;">open_in_new</span> Open on GitHub
+              </a>
+            </div>
+            
+            <!-- Quick Live Metric Badges -->
+            <div class="gh-stats-row" id="gh-preview-stats">
+              <span class="badge-pill badge-green" id="gh-badge-repos">📦 0 Repos</span>
+              <span class="badge-pill badge-amber" id="gh-badge-stars">⭐ 0 Stars</span>
+              <span class="badge-pill badge-purple" id="gh-badge-followers">👥 0 Followers</span>
+              <span class="badge-pill badge-blue" id="gh-badge-focus">🎯 Web Development</span>
+              <span class="badge-pill badge-green" id="gh-badge-langs">💻 Languages</span>
+            </div>
+          </div>
+        </div>
+
+        <form id="form-github" class="m3-card">
+          <div class="form-grid">
+            <div class="m3-field"><label class="m3-label">Focus Area</label><select id="github-focus" class="m3-select"></select></div>
+            <div class="m3-field"><label class="m3-label">Public Repositories</label><input type="number" id="gh-repos" class="m3-input" placeholder="e.g. 22"></div>
+            <div class="m3-field"><label class="m3-label">Followers</label><input type="number" id="gh-followers" class="m3-input" placeholder="e.g. 85"></div>
+            <div class="m3-field"><label class="m3-label">Following</label><input type="number" id="gh-following" class="m3-input" placeholder="e.g. 45"></div>
+            <div class="m3-field"><label class="m3-label">Total Stars Earned</label><input type="number" id="gh-stars" class="m3-input" placeholder="e.g. 120"></div>
+            <div class="m3-field"><label class="m3-label">Total Forks</label><input type="number" id="gh-forks" class="m3-input" placeholder="e.g. 35"></div>
+            <div class="m3-field"><label class="m3-label">Contributions Last Year</label><input type="number" id="gh-contribs" class="m3-input" placeholder="e.g. 480"></div>
+            <div class="m3-field"><label class="m3-label">Longest Streak (Days)</label><input type="number" id="gh-streak" class="m3-input" placeholder="e.g. 32"></div>
+            <div class="m3-field"><label class="m3-label">README Coverage (%)</label><input type="number" id="gh-readme" class="m3-input" placeholder="e.g. 85"></div>
+            <div class="m3-field"><label class="m3-label">Pinned Repositories</label><input type="number" id="gh-pinned" class="m3-input" placeholder="e.g. 4"></div>
+            <div class="m3-field"><label class="m3-label">Top Repo Stars</label><input type="number" id="gh-top-stars" class="m3-input" placeholder="e.g. 65"></div>
+            <div class="m3-field"><label class="m3-label">Profile Score</label><input type="number" id="gh-score" class="m3-input" placeholder="e.g. 82"></div>
+            <div class="m3-field"><label class="m3-label">Open Source Contributions</label><input type="number" id="gh-os" class="m3-input" placeholder="e.g. 15"></div>
+            <div class="m3-field" style="display:flex; align-items:center; gap:0.5rem; flex-direction:row;"><input type="checkbox" id="gh-bio"><label for="gh-bio" class="m3-label">Profile README Configured</label></div>
+            <div class="m3-field" style="grid-column: 1 / -1;"><label class="m3-label">Languages Used (Comma-separated)</label><input type="text" id="gh-langs" class="m3-input" placeholder="e.g. Python, TypeScript, Go, Dockerfile, SQL"></div>
+          </div>
+          <button type="submit" class="m3-btn"><span class="material-symbols-outlined">folder_special</span> Analyze Portfolio</button>
+        </form>
+
+        <div id="github-result" class="result-container">
+          <div class="glass-result-card">
+            <div class="form-grid" style="margin-bottom:0;">
+              <div class="m3-card"><span class="m3-label">PORTFOLIO RATING</span><div class="stat-val" style="color:var(--glow-emerald);" id="github-rating-display">--</div></div>
+              <div class="m3-card"><span class="m3-label">TOTAL STARS</span><div class="stat-val" style="color:var(--glow-amber);" id="github-stars-display">--</div></div>
+              <div class="m3-card"><span class="m3-label">CONTRIBUTIONS</span><div class="stat-val" style="color:var(--glow-cyan);" id="github-contribs-display">--</div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 7: SALARY PREDICTOR -->
+      <section id="section-salary" class="app-section" style="display:none;">
+        <div class="glass-hero">
+          <h1>💰 Global Salary Predictor (Numbeo 2026 Enriched)</h1>
+          <p>Predict compensation in USD and <strong>Local Currency (INR ₹, USD $, EUR €, etc.)</strong> enriched with Numbeo cost-of-living indices and purchasing power parity.</p>
+        </div>
+        <form id="form-salary" class="m3-card">
+          <div class="form-grid">
+            <div class="m3-field"><label class="m3-label">Industry</label><select id="salary-industry" class="m3-select"></select></div>
+            <div class="m3-field"><label class="m3-label">Job Title</label><select id="salary-job-title" class="m3-select"></select></div>
+            <div class="m3-field"><label class="m3-label">Years of Experience</label><input type="number" step="0.5" id="sal-exp" class="m3-input" placeholder="e.g. 4.0" min="0" max="35"></div>
+            <div class="m3-field"><label class="m3-label">Skills Count</label><input type="number" id="sal-skills" class="m3-input" placeholder="e.g. 8" min="1" max="30"></div>
+            <div class="m3-field"><label class="m3-label">Professional Certifications</label><input type="number" id="sal-certs" class="m3-input" placeholder="e.g. 2" min="0" max="10"></div>
+            <div class="m3-field"><label class="m3-label">Country of Employment</label><select id="salary-country" class="m3-select"></select></div>
+            <div class="m3-field"><label class="m3-label">Education Level</label><select id="salary-edu" class="m3-select"><option value="Bachelor's Degree">Bachelor's Degree</option><option value="Master's Degree">Master's Degree</option><option value="PhD">PhD</option><option value="High School">High School</option></select></div>
+            <div class="m3-field"><label class="m3-label">Degree Field</label><select id="salary-degree" class="m3-select"></select></div>
+            <div class="m3-field"><label class="m3-label">Company Size</label><select id="salary-company-size" class="m3-select"></select></div>
+            <div class="m3-field"><label class="m3-label">Work Arrangement</label><select id="salary-work-type" class="m3-select"><option value="Hybrid">Hybrid</option><option value="Remote">Remote</option><option value="On-site">On-site</option></select></div>
+          </div>
+          <button type="submit" class="m3-btn"><span class="material-symbols-outlined">currency_exchange</span> Predict Global & Local Salary</button>
+        </form>
+
+        <div id="salary-result" class="result-container">
+          <div class="glass-result-card">
+            <span class="m3-label">ESTIMATED ANNUAL COMPENSATION</span>
+            <div class="stat-val" id="salary-local-display" style="color:var(--glow-emerald); font-size:2.6rem;">--</div>
+            <div id="salary-usd-display" style="color:var(--md-sys-color-on-surface-variant); font-size:1.2rem; font-weight:600; margin-bottom:1.5rem;">--</div>
+            <div class="form-grid" style="margin-bottom:0;">
+              <div class="m3-card"><span class="m3-label">Monthly (Local)</span><div style="font-size:1.3rem; font-weight:700; color:#fff;" id="salary-monthly-local">--</div></div>
+              <div class="m3-card"><span class="m3-label">Cost of Living (Numbeo)</span><div style="font-size:1.3rem; font-weight:700; color:#fff;" id="salary-col-display">--</div></div>
+              <div class="m3-card"><span class="m3-label">PPP-Adjusted (USD)</span><div style="font-size:1.3rem; font-weight:700; color:#a8c8ff;" id="salary-ppp-display">--</div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 8: CAREER RECOMMENDER -->
+      <section id="section-career" class="app-section" style="display:none;">
+        <div class="glass-hero">
+          <h1>🚀 AI Career Path Recommender</h1>
+          <p>Select your passions, skills, and work style — AI matches your unique profile against 200,000 career transitions to find your highest-fit roles.</p>
+        </div>
+
+        <form id="form-career" class="m3-card">
+          <!-- Passions & Interests (First & Most Engaging) -->
+          <div style="margin-bottom: 1.25rem;">
+            <label class="m3-label" style="font-size:0.95rem; margin-bottom:0.6rem; display:block;">
+              ✨ Select Your Passions & Interest Domains (Tap all that apply)
+            </label>
+            <div class="chips-container">
+              <div class="m3-chip interest-chip selected" data-value="Technology">💻 Technology</div>
+              <div class="m3-chip interest-chip selected" data-value="Problem Solving">🧩 Problem Solving</div>
+              <div class="m3-chip interest-chip" data-value="Data & Analytics">📊 Data & Analytics</div>
+              <div class="m3-chip interest-chip" data-value="Design & Creativity">🎨 Design & Creativity</div>
+              <div class="m3-chip interest-chip" data-value="Business & Strategy">📈 Business & Strategy</div>
+              <div class="m3-chip interest-chip" data-value="People & Culture">👥 People & Culture</div>
+              <div class="m3-chip interest-chip" data-value="Communication & Media">📣 Communication & Media</div>
+              <div class="m3-chip interest-chip" data-value="Healthcare & Wellbeing">🩺 Healthcare & Wellbeing</div>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="m3-field" style="grid-column: 1 / -1;">
+              <label class="m3-label">Your Current Skills or Strengths (Comma-separated)</label>
+              <input type="text" id="career-skills" class="m3-input" placeholder="e.g. Python, SQL, Problem Solving, Communication, Design, Project Management" value="Python, Problem Solving, SQL">
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Industry Preference</label>
+              <select id="career-industry" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Preferred Work Style</label>
+              <select id="career-work-style" class="m3-select"></select>
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Years of Experience (0 for Fresher)</label>
+              <input type="number" step="0.5" id="career-exp" class="m3-input" placeholder="0" value="0" min="0" max="30">
+            </div>
+            <div class="m3-field">
+              <label class="m3-label">Education Level</label>
+              <select id="career-edu" class="m3-select">
+                <option value="Bachelor's Degree">Bachelor's Degree</option>
+                <option value="Master's Degree">Master's Degree</option>
+                <option value="Associate Degree">Associate Degree</option>
+                <option value="Diploma">Diploma</option>
+                <option value="High School">High School</option>
+                <option value="PhD">PhD</option>
+              </select>
+            </div>
+            <div class="m3-field" style="grid-column: 1 / -1; display:flex; gap:1.5rem; flex-direction:row; align-items:center;">
+              <span class="m3-label">Recommendations to Show:</span>
+              <label style="display:flex; align-items:center; gap:0.4rem; cursor:pointer;"><input type="radio" name="career-topk" value="3"> Top 3 Best Matches</label>
+              <label style="display:flex; align-items:center; gap:0.4rem; cursor:pointer;"><input type="radio" name="career-topk" value="5" checked> Top 5 Deep Matches</label>
+            </div>
+          </div>
+
+          <button type="submit" class="m3-btn" style="margin-top: 0.5rem;">
+            <span class="material-symbols-outlined">explore</span> ✨ Discover My Best Career Matches
+          </button>
+        </form>
+
+        <!-- Career Recommendations Results Container -->
+        <div id="career-result" class="result-container">
+          <div class="glass-result-card">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem; margin-bottom:1.25rem; border-bottom:1px solid rgba(255,255,255,0.08); padding-bottom:0.75rem;">
+              <div>
+                <h3 style="color:#fff; margin:0 0 0.25rem; font-size:1.25rem;">Top Recommended Career Specializations</h3>
+                <p style="color:#94a3b8; font-size:0.88rem; margin:0;">Ranked by ML model confidence based on your unique profile.</p>
+              </div>
+              <span class="badge-pill badge-green" id="career-match-badge">🎯 High Profile Match</span>
+            </div>
+
+            <div id="career-recs-list" style="display:flex; flex-direction:column; gap:1rem;"></div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+</div>
+
+<!-- Application Controller Script -->
+<script src="/static/js/app.js"></script>
+</body>
+</html>

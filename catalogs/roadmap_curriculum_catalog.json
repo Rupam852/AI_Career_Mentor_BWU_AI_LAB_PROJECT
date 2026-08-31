@@ -1,0 +1,3528 @@
+{
+  "AI Research Engineer": {
+    "target_role": "AI Research Engineer",
+    "industry": "Data Science",
+    "typical_duration_months": 12.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Statistics",
+      "Deep Learning",
+      "Tableau",
+      "SQL",
+      "PyTorch",
+      "Python",
+      "NLP",
+      "R",
+      "Data Visualization",
+      "TensorFlow",
+      "Pandas",
+      "NumPy"
+    ],
+    "top_certifications": [
+      "Microsoft Certified: Azure Data Scientist",
+      "TensorFlow Developer Certificate",
+      "IBM Data Science Professional Certificate"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Statistics via Udemy course",
+        "key_topics": [
+          "Statistics",
+          "Deep Learning",
+          "Tableau"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Data Visualization via Book + hands-on project",
+        "key_topics": [
+          "Tableau",
+          "SQL",
+          "PyTorch"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "NumPy via Bootcamp program",
+        "key_topics": [
+          "PyTorch",
+          "Python",
+          "NLP"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "SQL via Coursera course",
+        "key_topics": [
+          "NLP",
+          "R",
+          "Data Visualization"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in Statistics",
+      "Month 6: Finish first hands-on project using Statistics, Data Visualization",
+      "Month 12: Ready to apply for AI Research Engineer roles"
+    ],
+    "recommended_projects": [
+      "Beginner AI Research Engineer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise AI Research Engineer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Academic Advisor": {
+    "target_role": "Academic Advisor",
+    "industry": "Education",
+    "typical_duration_months": 11.4,
+    "default_phases_count": 4,
+    "top_skills": [
+      "LMS Platforms",
+      "Curriculum Design",
+      "Classroom Management",
+      "Google Classroom",
+      "Student Assessment",
+      "Lesson Planning"
+    ],
+    "top_certifications": [
+      "Teaching Certification",
+      "Instructional Design Certificate",
+      "TEFL/TESOL Certified"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "LMS Platforms via Mentorship program",
+        "key_topics": [
+          "LMS Platforms",
+          "Curriculum Design",
+          "Classroom Management"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Lesson Planning via YouTube tutorial series",
+        "key_topics": [
+          "Classroom Management",
+          "Google Classroom",
+          "Student Assessment"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Classroom Management via Coursera course",
+        "key_topics": [
+          "Student Assessment",
+          "Lesson Planning"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Student Assessment via Official documentation",
+        "key_topics": [
+          "LMS Platforms",
+          "Curriculum Design",
+          "Classroom Management"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in LMS Platforms",
+      "Month 6: Finish first hands-on project using LMS Platforms, Lesson Planning",
+      "Month 12: Ready to apply for Academic Advisor roles"
+    ],
+    "recommended_projects": [
+      "Beginner Academic Advisor Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Academic Advisor Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Account Manager": {
+    "target_role": "Account Manager",
+    "industry": "Sales",
+    "typical_duration_months": 10.1,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Salesforce",
+      "Negotiation",
+      "Client Relationship Management",
+      "Lead Generation",
+      "Sales Forecasting",
+      "CRM Software",
+      "Cold Calling"
+    ],
+    "top_certifications": [
+      "Salesforce Certified Administrator",
+      "HubSpot Sales Software Certification",
+      "Certified Sales Professional (CSP)"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Client Relationship Management via Book + hands-on project",
+        "key_topics": [
+          "Salesforce",
+          "Negotiation",
+          "Client Relationship Management"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Sales Forecasting via Bootcamp program",
+        "key_topics": [
+          "Client Relationship Management",
+          "Lead Generation",
+          "Sales Forecasting"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Salesforce via Mentorship program",
+        "key_topics": [
+          "Sales Forecasting",
+          "CRM Software",
+          "Cold Calling"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Client Relationship Management",
+      "Month 5: Finish first hands-on project using Client Relationship Management, Sales Forecasting",
+      "Month 10: Ready to apply for Account Manager roles"
+    ],
+    "recommended_projects": [
+      "Beginner Account Manager Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Account Manager Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Backend Developer": {
+    "target_role": "Backend Developer",
+    "industry": "Information Technology",
+    "typical_duration_months": 10.0,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Java",
+      "REST API",
+      "Git",
+      "Python",
+      "C++",
+      "TypeScript",
+      "Kubernetes",
+      "Docker",
+      "SQL",
+      "Node.js",
+      "React",
+      "JavaScript"
+    ],
+    "top_certifications": [
+      "AWS Certified Solutions Architect",
+      "Google Cloud Professional",
+      "Certified Kubernetes Administrator"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "TypeScript via YouTube tutorial series",
+        "key_topics": [
+          "Java",
+          "REST API",
+          "Git"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "React via Bootcamp program",
+        "key_topics": [
+          "Git",
+          "Python",
+          "C++"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Java via Book + hands-on project",
+        "key_topics": [
+          "C++",
+          "TypeScript",
+          "Kubernetes"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (2 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "AWS via Udemy course",
+        "key_topics": [
+          "Kubernetes",
+          "Docker",
+          "SQL"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in TypeScript",
+      "Month 5: Finish first hands-on project using TypeScript, React",
+      "Month 10: Ready to apply for Backend Developer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Backend Developer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Backend Developer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Brand Manager": {
+    "target_role": "Brand Manager",
+    "industry": "Marketing",
+    "typical_duration_months": 12.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Social Media Marketing",
+      "SEO",
+      "Brand Strategy",
+      "Email Marketing",
+      "HubSpot",
+      "Copywriting",
+      "A/B Testing",
+      "Google Analytics",
+      "PPC Advertising",
+      "Content Strategy"
+    ],
+    "top_certifications": [
+      "Google Analytics Individual Qualification",
+      "Facebook Blueprint Certification",
+      "Google Ads Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Brand Strategy via Mentorship program",
+        "key_topics": [
+          "Social Media Marketing",
+          "SEO",
+          "Brand Strategy"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Email Marketing via Bootcamp program",
+        "key_topics": [
+          "Brand Strategy",
+          "Email Marketing",
+          "HubSpot"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "A/B Testing via Coursera course",
+        "key_topics": [
+          "HubSpot",
+          "Copywriting",
+          "A/B Testing"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Brand Strategy",
+      "Month 4: Finish first hands-on project using Brand Strategy, Email Marketing",
+      "Month 8: Ready to apply for Brand Manager roles"
+    ],
+    "recommended_projects": [
+      "Beginner Brand Manager Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Brand Manager Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Business Development Manager": {
+    "target_role": "Business Development Manager",
+    "industry": "Sales",
+    "typical_duration_months": 11.4,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Negotiation",
+      "Sales Forecasting",
+      "Salesforce",
+      "CRM Software",
+      "Lead Generation",
+      "Cold Calling",
+      "Client Relationship Management"
+    ],
+    "top_certifications": [
+      "Certified Sales Professional (CSP)",
+      "Salesforce Certified Administrator",
+      "HubSpot Sales Software Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Negotiation via Open-source contribution",
+        "key_topics": [
+          "Negotiation",
+          "Sales Forecasting",
+          "Salesforce"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Cold Calling via LinkedIn Learning course",
+        "key_topics": [
+          "Salesforce",
+          "CRM Software",
+          "Lead Generation"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Lead Generation via Book + hands-on project",
+        "key_topics": [
+          "Lead Generation",
+          "Cold Calling",
+          "Client Relationship Management"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 1: Complete foundational learning in Negotiation",
+      "Month 3: Finish first hands-on project using Negotiation, Cold Calling",
+      "Month 7: Ready to apply for Business Development Manager roles"
+    ],
+    "recommended_projects": [
+      "Beginner Business Development Manager Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Business Development Manager Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Civil Engineer": {
+    "target_role": "Civil Engineer",
+    "industry": "Engineering",
+    "typical_duration_months": 10.1,
+    "default_phases_count": 3,
+    "top_skills": [
+      "SolidWorks",
+      "Six Sigma",
+      "Structural Analysis",
+      "CAD Design",
+      "MATLAB",
+      "AutoCAD",
+      "Project Management"
+    ],
+    "top_certifications": [
+      "PMP Certification",
+      "Professional Engineer (PE) License",
+      "Six Sigma Green Belt"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Structural Analysis via University certification course",
+        "key_topics": [
+          "SolidWorks",
+          "Six Sigma",
+          "Structural Analysis"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "SolidWorks via Mentorship program",
+        "key_topics": [
+          "Structural Analysis",
+          "CAD Design",
+          "MATLAB"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "AutoCAD via Open-source contribution",
+        "key_topics": [
+          "MATLAB",
+          "AutoCAD",
+          "Project Management"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 1: Complete foundational learning in Structural Analysis",
+      "Month 3: Finish first hands-on project using Structural Analysis, SolidWorks",
+      "Month 7: Ready to apply for Civil Engineer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Civil Engineer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Civil Engineer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Clinical Research Coordinator": {
+    "target_role": "Clinical Research Coordinator",
+    "industry": "Healthcare",
+    "typical_duration_months": 10.0,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Clinical Documentation",
+      "Medication Administration",
+      "Medical Records",
+      "Patient Care",
+      "HIPAA Compliance",
+      "CPR Certified",
+      "Vital Signs Monitoring"
+    ],
+    "top_certifications": [
+      "Registered Nurse License",
+      "CPR/AED Certified",
+      "BLS Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "HIPAA Compliance via YouTube tutorial series",
+        "key_topics": [
+          "Clinical Documentation",
+          "Medication Administration",
+          "Medical Records"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Medical Records via Mentorship program",
+        "key_topics": [
+          "Medical Records",
+          "Patient Care",
+          "HIPAA Compliance"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Medication Administration via University certification course",
+        "key_topics": [
+          "HIPAA Compliance",
+          "CPR Certified",
+          "Vital Signs Monitoring"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in HIPAA Compliance",
+      "Month 4: Finish first hands-on project using HIPAA Compliance, Medical Records",
+      "Month 9: Ready to apply for Clinical Research Coordinator roles"
+    ],
+    "recommended_projects": [
+      "Beginner Clinical Research Coordinator Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Clinical Research Coordinator Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Cloud Engineer": {
+    "target_role": "Cloud Engineer",
+    "industry": "Information Technology",
+    "typical_duration_months": 12.8,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "AWS",
+      "React",
+      "Microservices",
+      "Kubernetes",
+      "Node.js",
+      "SQL",
+      "Linux",
+      "Docker",
+      "REST API"
+    ],
+    "top_certifications": [
+      "AWS Certified Solutions Architect",
+      "Oracle Certified Java Programmer",
+      "Certified Kubernetes Administrator"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Python via Official documentation",
+        "key_topics": [
+          "Python",
+          "TypeScript",
+          "JavaScript"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "JavaScript via Official documentation",
+        "key_topics": [
+          "JavaScript",
+          "AWS",
+          "React"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "React via LinkedIn Learning course",
+        "key_topics": [
+          "React",
+          "Microservices",
+          "Kubernetes"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Linux via Official documentation",
+        "key_topics": [
+          "Kubernetes",
+          "Node.js",
+          "SQL"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in Python",
+      "Month 6: Finish first hands-on project using Python, JavaScript",
+      "Month 12: Ready to apply for Cloud Engineer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Cloud Engineer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Cloud Engineer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Content Marketing Manager": {
+    "target_role": "Content Marketing Manager",
+    "industry": "Marketing",
+    "typical_duration_months": 11.5,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Email Marketing",
+      "HubSpot",
+      "Copywriting",
+      "Social Media Marketing",
+      "Brand Strategy",
+      "A/B Testing",
+      "SEO",
+      "PPC Advertising",
+      "Google Analytics",
+      "Content Strategy"
+    ],
+    "top_certifications": [
+      "HubSpot Content Marketing Certified",
+      "Google Analytics Individual Qualification",
+      "Facebook Blueprint Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "HubSpot via Bootcamp program",
+        "key_topics": [
+          "Email Marketing",
+          "HubSpot",
+          "Copywriting"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Email Marketing via LinkedIn Learning course",
+        "key_topics": [
+          "Copywriting",
+          "Social Media Marketing",
+          "Brand Strategy"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Content Strategy via Udemy course",
+        "key_topics": [
+          "Brand Strategy",
+          "A/B Testing",
+          "SEO"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (2 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Brand Strategy via University certification course",
+        "key_topics": [
+          "SEO",
+          "PPC Advertising",
+          "Google Analytics"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in HubSpot",
+      "Month 5: Finish first hands-on project using HubSpot, Email Marketing",
+      "Month 10: Ready to apply for Content Marketing Manager roles"
+    ],
+    "recommended_projects": [
+      "Beginner Content Marketing Manager Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Content Marketing Manager Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Curriculum Developer": {
+    "target_role": "Curriculum Developer",
+    "industry": "Education",
+    "typical_duration_months": 10.0,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Lesson Planning",
+      "Google Classroom",
+      "Curriculum Design",
+      "Classroom Management",
+      "Student Assessment",
+      "LMS Platforms"
+    ],
+    "top_certifications": [
+      "Instructional Design Certificate",
+      "TEFL/TESOL Certified",
+      "Teaching Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Google Classroom via Official documentation",
+        "key_topics": [
+          "Lesson Planning",
+          "Google Classroom",
+          "Curriculum Design"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "LMS Platforms via Official documentation",
+        "key_topics": [
+          "Curriculum Design",
+          "Classroom Management",
+          "Student Assessment"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Curriculum Design via Book + hands-on project",
+        "key_topics": [
+          "Student Assessment",
+          "LMS Platforms"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Lesson Planning via Open-source contribution",
+        "key_topics": [
+          "Lesson Planning",
+          "Google Classroom",
+          "Curriculum Design"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in Google Classroom",
+      "Month 7: Finish first hands-on project using Google Classroom, LMS Platforms",
+      "Month 14: Ready to apply for Curriculum Developer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Curriculum Developer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Curriculum Developer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Data Scientist": {
+    "target_role": "Data Scientist",
+    "industry": "Data Science",
+    "typical_duration_months": 8.5,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Python",
+      "NumPy",
+      "Machine Learning",
+      "Deep Learning",
+      "PyTorch",
+      "Tableau",
+      "NLP",
+      "TensorFlow",
+      "SQL",
+      "Statistics",
+      "R",
+      "Pandas"
+    ],
+    "top_certifications": [
+      "Google Data Analytics Certificate",
+      "TensorFlow Developer Certificate",
+      "Microsoft Certified: Azure Data Scientist"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Scikit-learn via Bootcamp program",
+        "key_topics": [
+          "Python",
+          "NumPy",
+          "Machine Learning"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Machine Learning via Bootcamp program",
+        "key_topics": [
+          "Machine Learning",
+          "Deep Learning",
+          "PyTorch"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "NLP via Bootcamp program",
+        "key_topics": [
+          "PyTorch",
+          "Tableau",
+          "NLP"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Scikit-learn",
+      "Month 4: Finish first hands-on project using Scikit-learn, Machine Learning",
+      "Month 9: Ready to apply for Data Scientist roles"
+    ],
+    "recommended_projects": [
+      "Beginner Data Scientist Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Data Scientist Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Dean": {
+    "target_role": "Dean",
+    "industry": "Education",
+    "typical_duration_months": 12.1,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Lesson Planning",
+      "LMS Platforms",
+      "Student Assessment",
+      "Classroom Management",
+      "Curriculum Design",
+      "Google Classroom"
+    ],
+    "top_certifications": [
+      "Instructional Design Certificate",
+      "TEFL/TESOL Certified",
+      "Teaching Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Lesson Planning via Bootcamp program",
+        "key_topics": [
+          "Lesson Planning",
+          "LMS Platforms",
+          "Student Assessment"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Google Classroom via Book + hands-on project",
+        "key_topics": [
+          "Student Assessment",
+          "Classroom Management",
+          "Curriculum Design"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Classroom Management via Book + hands-on project",
+        "key_topics": [
+          "Curriculum Design",
+          "Google Classroom"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Student Assessment via Book + hands-on project",
+        "key_topics": [
+          "Lesson Planning",
+          "LMS Platforms",
+          "Student Assessment"
+        ]
+      },
+      {
+        "phase_number": 5,
+        "title": "Job-Readiness & Certification (3 mo)",
+        "level": "Mastery (Capstone Projects & Certification)",
+        "badge": "\ud83c\udfc6 Capstone & Job-Readiness",
+        "details": "LMS Platforms via Bootcamp program",
+        "key_topics": [
+          "Lesson Planning",
+          "LMS Platforms",
+          "Student Assessment"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 4: Complete foundational learning in Lesson Planning",
+      "Month 8: Finish first hands-on project using Lesson Planning, Google Classroom",
+      "Month 17: Ready to apply for Dean roles"
+    ],
+    "recommended_projects": [
+      "Beginner Dean Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Dean Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Design Lead": {
+    "target_role": "Design Lead",
+    "industry": "Design",
+    "typical_duration_months": 11.6,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Sketch",
+      "Typography",
+      "User Research",
+      "Prototyping",
+      "Adobe Illustrator",
+      "Wireframing",
+      "Adobe XD",
+      "InDesign",
+      "Figma",
+      "Adobe Photoshop"
+    ],
+    "top_certifications": [
+      "UX Design Professional Certificate (Google)",
+      "Certified Usability Analyst",
+      "Adobe Certified Expert"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Sketch via Coursera course",
+        "key_topics": [
+          "Sketch",
+          "Typography",
+          "User Research"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Adobe Illustrator via Bootcamp program",
+        "key_topics": [
+          "User Research",
+          "Prototyping",
+          "Adobe Illustrator"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Adobe XD via LinkedIn Learning course",
+        "key_topics": [
+          "Adobe Illustrator",
+          "Wireframing",
+          "Adobe XD"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (2 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Prototyping via University certification course",
+        "key_topics": [
+          "Adobe XD",
+          "InDesign",
+          "Figma"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Sketch",
+      "Month 5: Finish first hands-on project using Sketch, Adobe Illustrator",
+      "Month 10: Ready to apply for Design Lead roles"
+    ],
+    "recommended_projects": [
+      "Beginner Design Lead Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Design Lead Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "DevOps Engineer": {
+    "target_role": "DevOps Engineer",
+    "industry": "Information Technology",
+    "typical_duration_months": 12.5,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Kubernetes",
+      "C++",
+      "TypeScript",
+      "Microservices",
+      "Java",
+      "REST API",
+      "Node.js",
+      "Linux",
+      "SQL",
+      "Git",
+      "AWS",
+      "JavaScript"
+    ],
+    "top_certifications": [
+      "Google Cloud Professional",
+      "CompTIA Security+",
+      "Certified Kubernetes Administrator"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "AWS via Bootcamp program",
+        "key_topics": [
+          "Kubernetes",
+          "C++",
+          "TypeScript"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Microservices via Open-source contribution",
+        "key_topics": [
+          "TypeScript",
+          "Microservices",
+          "Java"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Git via Book + hands-on project",
+        "key_topics": [
+          "Java",
+          "REST API",
+          "Node.js"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (2 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Java via Official documentation",
+        "key_topics": [
+          "Node.js",
+          "Linux",
+          "SQL"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in AWS",
+      "Month 5: Finish first hands-on project using AWS, Microservices",
+      "Month 10: Ready to apply for DevOps Engineer roles"
+    ],
+    "recommended_projects": [
+      "Beginner DevOps Engineer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise DevOps Engineer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Digital Marketing Specialist": {
+    "target_role": "Digital Marketing Specialist",
+    "industry": "Marketing",
+    "typical_duration_months": 8.5,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Google Analytics",
+      "Content Strategy",
+      "PPC Advertising",
+      "A/B Testing",
+      "SEO",
+      "Copywriting",
+      "HubSpot",
+      "Brand Strategy",
+      "Social Media Marketing",
+      "Email Marketing"
+    ],
+    "top_certifications": [
+      "Facebook Blueprint Certification",
+      "HubSpot Content Marketing Certified",
+      "Google Analytics Individual Qualification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Content Strategy via YouTube tutorial series",
+        "key_topics": [
+          "Google Analytics",
+          "Content Strategy",
+          "PPC Advertising"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Email Marketing via Book + hands-on project",
+        "key_topics": [
+          "PPC Advertising",
+          "A/B Testing",
+          "SEO"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "SEO via Mentorship program",
+        "key_topics": [
+          "SEO",
+          "Copywriting",
+          "HubSpot"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 1: Complete foundational learning in Content Strategy",
+      "Month 3: Finish first hands-on project using Content Strategy, Email Marketing",
+      "Month 7: Ready to apply for Digital Marketing Specialist roles"
+    ],
+    "recommended_projects": [
+      "Beginner Digital Marketing Specialist Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Digital Marketing Specialist Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Director of Nursing": {
+    "target_role": "Director of Nursing",
+    "industry": "Healthcare",
+    "typical_duration_months": 11.6,
+    "default_phases_count": 4,
+    "top_skills": [
+      "CPR Certified",
+      "Vital Signs Monitoring",
+      "Medical Records",
+      "Clinical Documentation",
+      "Patient Care",
+      "Medication Administration",
+      "HIPAA Compliance"
+    ],
+    "top_certifications": [
+      "Registered Nurse License",
+      "ACLS Certification",
+      "BLS Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Medication Administration via LinkedIn Learning course",
+        "key_topics": [
+          "CPR Certified",
+          "Vital Signs Monitoring",
+          "Medical Records"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Medical Records via Mentorship program",
+        "key_topics": [
+          "Medical Records",
+          "Clinical Documentation",
+          "Patient Care"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "CPR Certified via Open-source contribution",
+        "key_topics": [
+          "Patient Care",
+          "Medication Administration",
+          "HIPAA Compliance"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Patient Care via University certification course",
+        "key_topics": [
+          "HIPAA Compliance"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in Medication Administration",
+      "Month 7: Finish first hands-on project using Medication Administration, Medical Records",
+      "Month 14: Ready to apply for Director of Nursing roles"
+    ],
+    "recommended_projects": [
+      "Beginner Director of Nursing Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Director of Nursing Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Engineering Manager": {
+    "target_role": "Engineering Manager",
+    "industry": "Engineering",
+    "typical_duration_months": 12.0,
+    "default_phases_count": 4,
+    "top_skills": [
+      "SolidWorks",
+      "CAD Design",
+      "Structural Analysis",
+      "Project Management",
+      "MATLAB",
+      "AutoCAD",
+      "Six Sigma",
+      "TypeScript",
+      "React",
+      "Linux",
+      "Docker",
+      "SQL"
+    ],
+    "top_certifications": [
+      "Six Sigma Green Belt",
+      "PMP Certification",
+      "Professional Engineer (PE) License"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Six Sigma via YouTube tutorial series",
+        "key_topics": [
+          "SolidWorks",
+          "CAD Design",
+          "Structural Analysis"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "CAD Design via Book + hands-on project",
+        "key_topics": [
+          "Structural Analysis",
+          "Project Management",
+          "MATLAB"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "SolidWorks via Coursera course",
+        "key_topics": [
+          "MATLAB",
+          "AutoCAD",
+          "Six Sigma"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Six Sigma",
+      "Month 5: Finish first hands-on project using Six Sigma, CAD Design",
+      "Month 10: Ready to apply for Engineering Manager roles"
+    ],
+    "recommended_projects": [
+      "Beginner Engineering Manager Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Engineering Manager Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Finance Director": {
+    "target_role": "Finance Director",
+    "industry": "Finance",
+    "typical_duration_months": 12.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "SAP",
+      "Budgeting",
+      "Forecasting",
+      "QuickBooks",
+      "Taxation",
+      "Financial Reporting",
+      "Risk Management",
+      "Financial Modeling",
+      "Auditing",
+      "Excel"
+    ],
+    "top_certifications": [
+      "CFA Level 1",
+      "CPA Certified",
+      "FRM Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Budgeting via Official documentation",
+        "key_topics": [
+          "SAP",
+          "Budgeting",
+          "Forecasting"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "SAP via Official documentation",
+        "key_topics": [
+          "Forecasting",
+          "QuickBooks",
+          "Taxation"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Taxation via Bootcamp program",
+        "key_topics": [
+          "Taxation",
+          "Financial Reporting",
+          "Risk Management"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Excel via Official documentation",
+        "key_topics": [
+          "Risk Management",
+          "Financial Modeling",
+          "Auditing"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in Budgeting",
+      "Month 6: Finish first hands-on project using Budgeting, SAP",
+      "Month 12: Ready to apply for Finance Director roles"
+    ],
+    "recommended_projects": [
+      "Beginner Finance Director Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Finance Director Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Financial Analyst": {
+    "target_role": "Financial Analyst",
+    "industry": "Finance",
+    "typical_duration_months": 8.4,
+    "default_phases_count": 3,
+    "top_skills": [
+      "QuickBooks",
+      "Financial Reporting",
+      "Excel",
+      "Risk Management",
+      "Budgeting",
+      "Taxation",
+      "Auditing",
+      "Financial Modeling",
+      "SAP",
+      "Forecasting"
+    ],
+    "top_certifications": [
+      "FRM Certification",
+      "CPA Certified",
+      "ACCA Qualified"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Auditing via Official documentation",
+        "key_topics": [
+          "QuickBooks",
+          "Financial Reporting",
+          "Excel"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "SAP via LinkedIn Learning course",
+        "key_topics": [
+          "Excel",
+          "Risk Management",
+          "Budgeting"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Forecasting via Bootcamp program",
+        "key_topics": [
+          "Budgeting",
+          "Taxation",
+          "Auditing"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Auditing",
+      "Month 4: Finish first hands-on project using Auditing, SAP",
+      "Month 8: Ready to apply for Financial Analyst roles"
+    ],
+    "recommended_projects": [
+      "Beginner Financial Analyst Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Financial Analyst Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Financial Controller": {
+    "target_role": "Financial Controller",
+    "industry": "Finance",
+    "typical_duration_months": 11.5,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Financial Reporting",
+      "Risk Management",
+      "QuickBooks",
+      "SAP",
+      "Excel",
+      "Financial Modeling",
+      "Forecasting",
+      "Taxation",
+      "Budgeting",
+      "Auditing"
+    ],
+    "top_certifications": [
+      "ACCA Qualified",
+      "CFA Level 1",
+      "CPA Certified"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Financial Modeling via Udemy course",
+        "key_topics": [
+          "Financial Reporting",
+          "Risk Management",
+          "QuickBooks"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Taxation via Coursera course",
+        "key_topics": [
+          "QuickBooks",
+          "SAP",
+          "Excel"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "QuickBooks via YouTube tutorial series",
+        "key_topics": [
+          "Excel",
+          "Financial Modeling",
+          "Forecasting"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Financial Modeling",
+      "Month 5: Finish first hands-on project using Financial Modeling, Taxation",
+      "Month 10: Ready to apply for Financial Controller roles"
+    ],
+    "recommended_projects": [
+      "Beginner Financial Controller Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Financial Controller Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Full Stack Developer": {
+    "target_role": "Full Stack Developer",
+    "industry": "Information Technology",
+    "typical_duration_months": 11.6,
+    "default_phases_count": 4,
+    "top_skills": [
+      "AWS",
+      "Git",
+      "Microservices",
+      "Java",
+      "SQL",
+      "Python",
+      "TypeScript",
+      "C++",
+      "Kubernetes",
+      "JavaScript",
+      "Node.js",
+      "Docker"
+    ],
+    "top_certifications": [
+      "AWS Certified Solutions Architect",
+      "CompTIA Security+",
+      "Certified Kubernetes Administrator"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Python via Bootcamp program",
+        "key_topics": [
+          "AWS",
+          "Git",
+          "Microservices"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "TypeScript via Book + hands-on project",
+        "key_topics": [
+          "Microservices",
+          "Java",
+          "SQL"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Git via Bootcamp program",
+        "key_topics": [
+          "SQL",
+          "Python",
+          "TypeScript"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Python",
+      "Month 4: Finish first hands-on project using Python, TypeScript",
+      "Month 8: Ready to apply for Full Stack Developer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Full Stack Developer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Full Stack Developer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "HR Business Partner": {
+    "target_role": "HR Business Partner",
+    "industry": "Human Resources",
+    "typical_duration_months": 10.1,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Onboarding",
+      "Employee Relations",
+      "Labor Law Compliance",
+      "Performance Management",
+      "Recruitment",
+      "Payroll",
+      "HRIS"
+    ],
+    "top_certifications": [
+      "PHR Certification",
+      "HRCI Certified",
+      "SHRM-CP"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Recruitment via Mentorship program",
+        "key_topics": [
+          "Onboarding",
+          "Employee Relations",
+          "Labor Law Compliance"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Onboarding via Coursera course",
+        "key_topics": [
+          "Labor Law Compliance",
+          "Performance Management",
+          "Recruitment"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Performance Management via University certification course",
+        "key_topics": [
+          "Recruitment",
+          "Payroll",
+          "HRIS"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Recruitment",
+      "Month 5: Finish first hands-on project using Recruitment, Onboarding",
+      "Month 10: Ready to apply for HR Business Partner roles"
+    ],
+    "recommended_projects": [
+      "Beginner HR Business Partner Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise HR Business Partner Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "HR Director": {
+    "target_role": "HR Director",
+    "industry": "Human Resources",
+    "typical_duration_months": 12.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Recruitment",
+      "Performance Management",
+      "Labor Law Compliance",
+      "Onboarding",
+      "Payroll",
+      "HRIS",
+      "Employee Relations"
+    ],
+    "top_certifications": [
+      "PHR Certification",
+      "HRCI Certified",
+      "SHRM-CP"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Employee Relations via Open-source contribution",
+        "key_topics": [
+          "Recruitment",
+          "Performance Management",
+          "Labor Law Compliance"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Payroll via Book + hands-on project",
+        "key_topics": [
+          "Labor Law Compliance",
+          "Onboarding",
+          "Payroll"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Performance Management via YouTube tutorial series",
+        "key_topics": [
+          "Payroll",
+          "HRIS",
+          "Employee Relations"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Employee Relations",
+      "Month 5: Finish first hands-on project using Employee Relations, Payroll",
+      "Month 10: Ready to apply for HR Director roles"
+    ],
+    "recommended_projects": [
+      "Beginner HR Director Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise HR Director Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "HR Manager": {
+    "target_role": "HR Manager",
+    "industry": "Human Resources",
+    "typical_duration_months": 12.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Performance Management",
+      "Recruitment",
+      "Payroll",
+      "HRIS",
+      "Labor Law Compliance",
+      "Employee Relations",
+      "Onboarding"
+    ],
+    "top_certifications": [
+      "SHRM-CP",
+      "PHR Certification",
+      "HRCI Certified"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Recruitment via Coursera course",
+        "key_topics": [
+          "Performance Management",
+          "Recruitment",
+          "Payroll"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "HRIS via Coursera course",
+        "key_topics": [
+          "Payroll",
+          "HRIS",
+          "Labor Law Compliance"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Labor Law Compliance via Udemy course",
+        "key_topics": [
+          "Labor Law Compliance",
+          "Employee Relations",
+          "Onboarding"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Recruitment",
+      "Month 4: Finish first hands-on project using Recruitment, HRIS",
+      "Month 8: Ready to apply for HR Manager roles"
+    ],
+    "recommended_projects": [
+      "Beginner HR Manager Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise HR Manager Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Head of Data Science": {
+    "target_role": "Head of Data Science",
+    "industry": "Data Science",
+    "typical_duration_months": 12.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Python",
+      "Pandas",
+      "NLP",
+      "Statistics",
+      "Data Visualization",
+      "PyTorch",
+      "Power BI",
+      "Machine Learning",
+      "Tableau",
+      "TensorFlow",
+      "Deep Learning",
+      "NumPy"
+    ],
+    "top_certifications": [
+      "Microsoft Certified: Azure Data Scientist",
+      "Google Data Analytics Certificate",
+      "TensorFlow Developer Certificate"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Python via Bootcamp program",
+        "key_topics": [
+          "Python",
+          "Pandas",
+          "NLP"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "NLP via LinkedIn Learning course",
+        "key_topics": [
+          "NLP",
+          "Statistics",
+          "Data Visualization"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "R via Mentorship program",
+        "key_topics": [
+          "Data Visualization",
+          "PyTorch",
+          "Power BI"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Tableau via Official documentation",
+        "key_topics": [
+          "Power BI",
+          "Machine Learning",
+          "Tableau"
+        ]
+      },
+      {
+        "phase_number": 5,
+        "title": "Job-Readiness & Certification (3 mo)",
+        "level": "Mastery (Capstone Projects & Certification)",
+        "badge": "\ud83c\udfc6 Capstone & Job-Readiness",
+        "details": "NumPy via Open-source contribution",
+        "key_topics": [
+          "Tableau",
+          "TensorFlow",
+          "Deep Learning"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 4: Complete foundational learning in Python",
+      "Month 8: Finish first hands-on project using Python, NLP",
+      "Month 17: Ready to apply for Head of Data Science roles"
+    ],
+    "recommended_projects": [
+      "Beginner Head of Data Science Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Head of Data Science Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Healthcare Administrator": {
+    "target_role": "Healthcare Administrator",
+    "industry": "Healthcare",
+    "typical_duration_months": 11.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Vital Signs Monitoring",
+      "Patient Care",
+      "Medication Administration",
+      "CPR Certified",
+      "Clinical Documentation",
+      "Medical Records",
+      "HIPAA Compliance"
+    ],
+    "top_certifications": [
+      "CPR/AED Certified",
+      "Registered Nurse License",
+      "ACLS Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "CPR Certified via Udemy course",
+        "key_topics": [
+          "Vital Signs Monitoring",
+          "Patient Care",
+          "Medication Administration"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Medical Records via Open-source contribution",
+        "key_topics": [
+          "Medication Administration",
+          "CPR Certified",
+          "Clinical Documentation"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "HIPAA Compliance via Coursera course",
+        "key_topics": [
+          "Clinical Documentation",
+          "Medical Records",
+          "HIPAA Compliance"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (2 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Patient Care via Open-source contribution",
+        "key_topics": [
+          "HIPAA Compliance"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in CPR Certified",
+      "Month 5: Finish first hands-on project using CPR Certified, Medical Records",
+      "Month 10: Ready to apply for Healthcare Administrator roles"
+    ],
+    "recommended_projects": [
+      "Beginner Healthcare Administrator Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Healthcare Administrator Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Investment Banker": {
+    "target_role": "Investment Banker",
+    "industry": "Finance",
+    "typical_duration_months": 12.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Forecasting",
+      "QuickBooks",
+      "Risk Management",
+      "Budgeting",
+      "Financial Reporting",
+      "Auditing",
+      "Taxation",
+      "Financial Modeling",
+      "SAP",
+      "Excel"
+    ],
+    "top_certifications": [
+      "FRM Certification",
+      "CFA Level 1",
+      "ACCA Qualified"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Excel via Official documentation",
+        "key_topics": [
+          "Forecasting",
+          "QuickBooks",
+          "Risk Management"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "SAP via Mentorship program",
+        "key_topics": [
+          "Risk Management",
+          "Budgeting",
+          "Financial Reporting"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Taxation via Book + hands-on project",
+        "key_topics": [
+          "Financial Reporting",
+          "Auditing",
+          "Taxation"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Excel",
+      "Month 5: Finish first hands-on project using Excel, SAP",
+      "Month 10: Ready to apply for Investment Banker roles"
+    ],
+    "recommended_projects": [
+      "Beginner Investment Banker Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Investment Banker Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Machine Learning Engineer": {
+    "target_role": "Machine Learning Engineer",
+    "industry": "Data Science",
+    "typical_duration_months": 10.1,
+    "default_phases_count": 3,
+    "top_skills": [
+      "R",
+      "Deep Learning",
+      "Python",
+      "Machine Learning",
+      "Data Visualization",
+      "Scikit-learn",
+      "Statistics",
+      "NumPy",
+      "Power BI",
+      "Pandas",
+      "SQL",
+      "NLP"
+    ],
+    "top_certifications": [
+      "TensorFlow Developer Certificate",
+      "IBM Data Science Professional Certificate",
+      "Google Data Analytics Certificate"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "PyTorch via Official documentation",
+        "key_topics": [
+          "R",
+          "Deep Learning",
+          "Python"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Power BI via Official documentation",
+        "key_topics": [
+          "Python",
+          "Machine Learning",
+          "Data Visualization"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Pandas via Mentorship program",
+        "key_topics": [
+          "Data Visualization",
+          "Scikit-learn",
+          "Statistics"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Scikit-learn via Official documentation",
+        "key_topics": [
+          "Statistics",
+          "NumPy",
+          "Power BI"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in PyTorch",
+      "Month 6: Finish first hands-on project using PyTorch, Power BI",
+      "Month 12: Ready to apply for Machine Learning Engineer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Machine Learning Engineer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Machine Learning Engineer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Marketing Director": {
+    "target_role": "Marketing Director",
+    "industry": "Marketing",
+    "typical_duration_months": 12.1,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Brand Strategy",
+      "Email Marketing",
+      "Content Strategy",
+      "Google Analytics",
+      "A/B Testing",
+      "Copywriting",
+      "SEO",
+      "PPC Advertising",
+      "Social Media Marketing",
+      "HubSpot"
+    ],
+    "top_certifications": [
+      "HubSpot Content Marketing Certified",
+      "Google Analytics Individual Qualification",
+      "Facebook Blueprint Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "PPC Advertising via Official documentation",
+        "key_topics": [
+          "Brand Strategy",
+          "Email Marketing",
+          "Content Strategy"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Google Analytics via Coursera course",
+        "key_topics": [
+          "Content Strategy",
+          "Google Analytics",
+          "A/B Testing"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Copywriting via Coursera course",
+        "key_topics": [
+          "A/B Testing",
+          "Copywriting",
+          "SEO"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Content Strategy via Open-source contribution",
+        "key_topics": [
+          "SEO",
+          "PPC Advertising",
+          "Social Media Marketing"
+        ]
+      },
+      {
+        "phase_number": 5,
+        "title": "Job-Readiness & Certification (3 mo)",
+        "level": "Mastery (Capstone Projects & Certification)",
+        "badge": "\ud83c\udfc6 Capstone & Job-Readiness",
+        "details": "Social Media Marketing via LinkedIn Learning course",
+        "key_topics": [
+          "Social Media Marketing",
+          "HubSpot"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 4: Complete foundational learning in PPC Advertising",
+      "Month 9: Finish first hands-on project using PPC Advertising, Google Analytics",
+      "Month 18: Ready to apply for Marketing Director roles"
+    ],
+    "recommended_projects": [
+      "Beginner Marketing Director Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Marketing Director Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Mechanical Engineer": {
+    "target_role": "Mechanical Engineer",
+    "industry": "Engineering",
+    "typical_duration_months": 8.5,
+    "default_phases_count": 3,
+    "top_skills": [
+      "MATLAB",
+      "Project Management",
+      "Structural Analysis",
+      "Six Sigma",
+      "SolidWorks",
+      "CAD Design",
+      "AutoCAD"
+    ],
+    "top_certifications": [
+      "PMP Certification",
+      "Professional Engineer (PE) License",
+      "Six Sigma Green Belt"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Structural Analysis via Official documentation",
+        "key_topics": [
+          "MATLAB",
+          "Project Management",
+          "Structural Analysis"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "AutoCAD via Mentorship program",
+        "key_topics": [
+          "Structural Analysis",
+          "Six Sigma",
+          "SolidWorks"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Six Sigma via Coursera course",
+        "key_topics": [
+          "SolidWorks",
+          "CAD Design",
+          "AutoCAD"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Structural Analysis",
+      "Month 4: Finish first hands-on project using Structural Analysis, AutoCAD",
+      "Month 8: Ready to apply for Mechanical Engineer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Mechanical Engineer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Mechanical Engineer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Product Designer": {
+    "target_role": "Product Designer",
+    "industry": "Design",
+    "typical_duration_months": 10.0,
+    "default_phases_count": 3,
+    "top_skills": [
+      "User Research",
+      "Adobe XD",
+      "Adobe Photoshop",
+      "Typography",
+      "Sketch",
+      "Adobe Illustrator",
+      "InDesign",
+      "Figma",
+      "Wireframing",
+      "Prototyping"
+    ],
+    "top_certifications": [
+      "UX Design Professional Certificate (Google)",
+      "Adobe Certified Expert",
+      "Certified Usability Analyst"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Sketch via Mentorship program",
+        "key_topics": [
+          "User Research",
+          "Adobe XD",
+          "Adobe Photoshop"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Prototyping via University certification course",
+        "key_topics": [
+          "Adobe Photoshop",
+          "Typography",
+          "Sketch"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "User Research via YouTube tutorial series",
+        "key_topics": [
+          "Sketch",
+          "Adobe Illustrator",
+          "InDesign"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Sketch",
+      "Month 4: Finish first hands-on project using Sketch, Prototyping",
+      "Month 8: Ready to apply for Product Designer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Product Designer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Product Designer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Professor": {
+    "target_role": "Professor",
+    "industry": "Education",
+    "typical_duration_months": 12.1,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Google Classroom",
+      "Classroom Management",
+      "LMS Platforms",
+      "Lesson Planning",
+      "Curriculum Design",
+      "Student Assessment"
+    ],
+    "top_certifications": [
+      "Teaching Certification",
+      "TEFL/TESOL Certified",
+      "Instructional Design Certificate"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Google Classroom via Mentorship program",
+        "key_topics": [
+          "Google Classroom",
+          "Classroom Management",
+          "LMS Platforms"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Classroom Management via University certification course",
+        "key_topics": [
+          "LMS Platforms",
+          "Lesson Planning",
+          "Curriculum Design"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Curriculum Design via LinkedIn Learning course",
+        "key_topics": [
+          "Curriculum Design",
+          "Student Assessment"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 1: Complete foundational learning in Google Classroom",
+      "Month 3: Finish first hands-on project using Google Classroom, Classroom Management",
+      "Month 7: Ready to apply for Professor roles"
+    ],
+    "recommended_projects": [
+      "Beginner Professor Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Professor Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Recruiter": {
+    "target_role": "Recruiter",
+    "industry": "Human Resources",
+    "typical_duration_months": 8.5,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Recruitment",
+      "Employee Relations",
+      "Onboarding",
+      "HRIS",
+      "Labor Law Compliance",
+      "Payroll",
+      "Performance Management"
+    ],
+    "top_certifications": [
+      "SHRM-CP",
+      "PHR Certification",
+      "HRCI Certified"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Labor Law Compliance via LinkedIn Learning course",
+        "key_topics": [
+          "Recruitment",
+          "Employee Relations",
+          "Onboarding"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Recruitment via University certification course",
+        "key_topics": [
+          "Onboarding",
+          "HRIS",
+          "Labor Law Compliance"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Payroll via Coursera course",
+        "key_topics": [
+          "Labor Law Compliance",
+          "Payroll",
+          "Performance Management"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Labor Law Compliance",
+      "Month 5: Finish first hands-on project using Labor Law Compliance, Recruitment",
+      "Month 10: Ready to apply for Recruiter roles"
+    ],
+    "recommended_projects": [
+      "Beginner Recruiter Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Recruiter Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Regional Sales Manager": {
+    "target_role": "Regional Sales Manager",
+    "industry": "Sales",
+    "typical_duration_months": 12.3,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Salesforce",
+      "Lead Generation",
+      "Client Relationship Management",
+      "Sales Forecasting",
+      "CRM Software",
+      "Cold Calling",
+      "Negotiation"
+    ],
+    "top_certifications": [
+      "HubSpot Sales Software Certification",
+      "Certified Sales Professional (CSP)",
+      "Salesforce Certified Administrator"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Client Relationship Management via Official documentation",
+        "key_topics": [
+          "Salesforce",
+          "Lead Generation",
+          "Client Relationship Management"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Sales Forecasting via Official documentation",
+        "key_topics": [
+          "Client Relationship Management",
+          "Sales Forecasting",
+          "CRM Software"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Salesforce via Mentorship program",
+        "key_topics": [
+          "CRM Software",
+          "Cold Calling",
+          "Negotiation"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Negotiation via Coursera course",
+        "key_topics": [
+          "Negotiation"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in Client Relationship Management",
+      "Month 7: Finish first hands-on project using Client Relationship Management, Sales Forecasting",
+      "Month 14: Ready to apply for Regional Sales Manager roles"
+    ],
+    "recommended_projects": [
+      "Beginner Regional Sales Manager Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Regional Sales Manager Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Registered Nurse": {
+    "target_role": "Registered Nurse",
+    "industry": "Healthcare",
+    "typical_duration_months": 8.5,
+    "default_phases_count": 3,
+    "top_skills": [
+      "CPR Certified",
+      "Medical Records",
+      "Vital Signs Monitoring",
+      "Patient Care",
+      "HIPAA Compliance",
+      "Medication Administration",
+      "Clinical Documentation"
+    ],
+    "top_certifications": [
+      "ACLS Certification",
+      "BLS Certification",
+      "Registered Nurse License"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Medication Administration via Official documentation",
+        "key_topics": [
+          "CPR Certified",
+          "Medical Records",
+          "Vital Signs Monitoring"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "HIPAA Compliance via Bootcamp program",
+        "key_topics": [
+          "Vital Signs Monitoring",
+          "Patient Care",
+          "HIPAA Compliance"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "CPR Certified via Mentorship program",
+        "key_topics": [
+          "HIPAA Compliance",
+          "Medication Administration",
+          "Clinical Documentation"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Medication Administration",
+      "Month 5: Finish first hands-on project using Medication Administration, HIPAA Compliance",
+      "Month 10: Ready to apply for Registered Nurse roles"
+    ],
+    "recommended_projects": [
+      "Beginner Registered Nurse Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Registered Nurse Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Risk Analyst": {
+    "target_role": "Risk Analyst",
+    "industry": "Finance",
+    "typical_duration_months": 10.0,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Budgeting",
+      "SAP",
+      "QuickBooks",
+      "Taxation",
+      "Risk Management",
+      "Auditing",
+      "Financial Reporting",
+      "Excel",
+      "Forecasting",
+      "Financial Modeling"
+    ],
+    "top_certifications": [
+      "ACCA Qualified",
+      "CPA Certified",
+      "CFA Level 1"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Budgeting via Coursera course",
+        "key_topics": [
+          "Budgeting",
+          "SAP",
+          "QuickBooks"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Financial Reporting via Official documentation",
+        "key_topics": [
+          "QuickBooks",
+          "Taxation",
+          "Risk Management"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Auditing via YouTube tutorial series",
+        "key_topics": [
+          "Risk Management",
+          "Auditing",
+          "Financial Reporting"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Budgeting",
+      "Month 4: Finish first hands-on project using Budgeting, Financial Reporting",
+      "Month 8: Ready to apply for Risk Analyst roles"
+    ],
+    "recommended_projects": [
+      "Beginner Risk Analyst Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Risk Analyst Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "SEO Specialist": {
+    "target_role": "SEO Specialist",
+    "industry": "Marketing",
+    "typical_duration_months": 10.0,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Brand Strategy",
+      "Google Analytics",
+      "SEO",
+      "Email Marketing",
+      "Social Media Marketing",
+      "HubSpot",
+      "Content Strategy",
+      "A/B Testing",
+      "PPC Advertising",
+      "Copywriting"
+    ],
+    "top_certifications": [
+      "Google Analytics Individual Qualification",
+      "HubSpot Content Marketing Certified",
+      "Facebook Blueprint Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Email Marketing via YouTube tutorial series",
+        "key_topics": [
+          "Brand Strategy",
+          "Google Analytics",
+          "SEO"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Google Analytics via University certification course",
+        "key_topics": [
+          "SEO",
+          "Email Marketing",
+          "Social Media Marketing"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Social Media Marketing via Coursera course",
+        "key_topics": [
+          "Social Media Marketing",
+          "HubSpot",
+          "Content Strategy"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "HubSpot via Coursera course",
+        "key_topics": [
+          "Content Strategy",
+          "A/B Testing",
+          "PPC Advertising"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in Email Marketing",
+      "Month 6: Finish first hands-on project using Email Marketing, Google Analytics",
+      "Month 12: Ready to apply for SEO Specialist roles"
+    ],
+    "recommended_projects": [
+      "Beginner SEO Specialist Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise SEO Specialist Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Sales Executive": {
+    "target_role": "Sales Executive",
+    "industry": "Sales",
+    "typical_duration_months": 8.6,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Cold Calling",
+      "Lead Generation",
+      "Salesforce",
+      "CRM Software",
+      "Client Relationship Management",
+      "Sales Forecasting",
+      "Negotiation"
+    ],
+    "top_certifications": [
+      "HubSpot Sales Software Certification",
+      "Salesforce Certified Administrator",
+      "Certified Sales Professional (CSP)"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Cold Calling via YouTube tutorial series",
+        "key_topics": [
+          "Cold Calling",
+          "Lead Generation",
+          "Salesforce"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Client Relationship Management via University certification course",
+        "key_topics": [
+          "Salesforce",
+          "CRM Software",
+          "Client Relationship Management"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "CRM Software via University certification course",
+        "key_topics": [
+          "Client Relationship Management",
+          "Sales Forecasting",
+          "Negotiation"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Cold Calling",
+      "Month 5: Finish first hands-on project using Cold Calling, Client Relationship Management",
+      "Month 10: Ready to apply for Sales Executive roles"
+    ],
+    "recommended_projects": [
+      "Beginner Sales Executive Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Sales Executive Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Senior Data Scientist": {
+    "target_role": "Senior Data Scientist",
+    "industry": "Data Science",
+    "typical_duration_months": 11.4,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Power BI",
+      "Data Visualization",
+      "Python",
+      "Deep Learning",
+      "Tableau",
+      "R",
+      "NLP",
+      "Pandas",
+      "Scikit-learn",
+      "NumPy",
+      "Machine Learning",
+      "TensorFlow"
+    ],
+    "top_certifications": [
+      "TensorFlow Developer Certificate",
+      "Google Data Analytics Certificate",
+      "IBM Data Science Professional Certificate"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Power BI via Book + hands-on project",
+        "key_topics": [
+          "Power BI",
+          "Data Visualization",
+          "Python"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Data Visualization via Book + hands-on project",
+        "key_topics": [
+          "Python",
+          "Deep Learning",
+          "Tableau"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Deep Learning via Bootcamp program",
+        "key_topics": [
+          "Tableau",
+          "R",
+          "NLP"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 1: Complete foundational learning in Power BI",
+      "Month 3: Finish first hands-on project using Power BI, Data Visualization",
+      "Month 7: Ready to apply for Senior Data Scientist roles"
+    ],
+    "recommended_projects": [
+      "Beginner Senior Data Scientist Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Senior Data Scientist Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Senior Engineer": {
+    "target_role": "Senior Engineer",
+    "industry": "Engineering",
+    "typical_duration_months": 11.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Project Management",
+      "Six Sigma",
+      "CAD Design",
+      "Structural Analysis",
+      "MATLAB",
+      "SolidWorks",
+      "AutoCAD"
+    ],
+    "top_certifications": [
+      "Six Sigma Green Belt",
+      "Professional Engineer (PE) License",
+      "PMP Certification"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "AutoCAD via Official documentation",
+        "key_topics": [
+          "Project Management",
+          "Six Sigma",
+          "CAD Design"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Six Sigma via Bootcamp program",
+        "key_topics": [
+          "CAD Design",
+          "Structural Analysis",
+          "MATLAB"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "CAD Design via Udemy course",
+        "key_topics": [
+          "MATLAB",
+          "SolidWorks",
+          "AutoCAD"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in AutoCAD",
+      "Month 4: Finish first hands-on project using AutoCAD, Six Sigma",
+      "Month 8: Ready to apply for Senior Engineer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Senior Engineer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Senior Engineer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Senior Product Designer": {
+    "target_role": "Senior Product Designer",
+    "industry": "Design",
+    "typical_duration_months": 11.2,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Adobe XD",
+      "Sketch",
+      "Wireframing",
+      "Adobe Illustrator",
+      "Prototyping",
+      "Typography",
+      "Figma",
+      "User Research",
+      "Adobe Photoshop",
+      "InDesign"
+    ],
+    "top_certifications": [
+      "Certified Usability Analyst",
+      "Adobe Certified Expert",
+      "UX Design Professional Certificate (Google)"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Sketch via Open-source contribution",
+        "key_topics": [
+          "Adobe XD",
+          "Sketch",
+          "Wireframing"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Prototyping via University certification course",
+        "key_topics": [
+          "Wireframing",
+          "Adobe Illustrator",
+          "Prototyping"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Figma via Udemy course",
+        "key_topics": [
+          "Prototyping",
+          "Typography",
+          "Figma"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Sketch",
+      "Month 5: Finish first hands-on project using Sketch, Prototyping",
+      "Month 10: Ready to apply for Senior Product Designer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Senior Product Designer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Senior Product Designer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Software Engineer": {
+    "target_role": "Software Engineer",
+    "industry": "Information Technology",
+    "typical_duration_months": 8.4,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Linux",
+      "AWS",
+      "Git",
+      "Docker",
+      "TypeScript",
+      "JavaScript",
+      "SQL",
+      "REST API",
+      "C++",
+      "Microservices",
+      "Node.js",
+      "React"
+    ],
+    "top_certifications": [
+      "CompTIA Security+",
+      "AWS Certified Solutions Architect",
+      "Certified Kubernetes Administrator"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "SQL via Coursera course",
+        "key_topics": [
+          "Linux",
+          "AWS",
+          "Git"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "React via LinkedIn Learning course",
+        "key_topics": [
+          "Git",
+          "Docker",
+          "TypeScript"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "TypeScript via Coursera course",
+        "key_topics": [
+          "TypeScript",
+          "JavaScript",
+          "SQL"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 1: Complete foundational learning in SQL",
+      "Month 3: Finish first hands-on project using SQL, React",
+      "Month 7: Ready to apply for Software Engineer roles"
+    ],
+    "recommended_projects": [
+      "Beginner Software Engineer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Software Engineer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Talent Acquisition Specialist": {
+    "target_role": "Talent Acquisition Specialist",
+    "industry": "Human Resources",
+    "typical_duration_months": 11.4,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Employee Relations",
+      "Payroll",
+      "Labor Law Compliance",
+      "Onboarding",
+      "Performance Management",
+      "HRIS",
+      "Recruitment"
+    ],
+    "top_certifications": [
+      "SHRM-CP",
+      "PHR Certification",
+      "HRCI Certified"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Payroll via Bootcamp program",
+        "key_topics": [
+          "Employee Relations",
+          "Payroll",
+          "Labor Law Compliance"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "HRIS via Book + hands-on project",
+        "key_topics": [
+          "Labor Law Compliance",
+          "Onboarding",
+          "Performance Management"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Labor Law Compliance via Official documentation",
+        "key_topics": [
+          "Performance Management",
+          "HRIS",
+          "Recruitment"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in Payroll",
+      "Month 5: Finish first hands-on project using Payroll, HRIS",
+      "Month 10: Ready to apply for Talent Acquisition Specialist roles"
+    ],
+    "recommended_projects": [
+      "Beginner Talent Acquisition Specialist Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Talent Acquisition Specialist Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "Teacher": {
+    "target_role": "Teacher",
+    "industry": "Education",
+    "typical_duration_months": 8.5,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Student Assessment",
+      "Classroom Management",
+      "Lesson Planning",
+      "Google Classroom",
+      "Curriculum Design",
+      "LMS Platforms"
+    ],
+    "top_certifications": [
+      "Teaching Certification",
+      "TEFL/TESOL Certified",
+      "Instructional Design Certificate"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Student Assessment via Bootcamp program",
+        "key_topics": [
+          "Student Assessment",
+          "Classroom Management",
+          "Lesson Planning"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Google Classroom via Official documentation",
+        "key_topics": [
+          "Lesson Planning",
+          "Google Classroom",
+          "Curriculum Design"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Curriculum Design via Official documentation",
+        "key_topics": [
+          "Curriculum Design",
+          "LMS Platforms"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 1: Complete foundational learning in Student Assessment",
+      "Month 3: Finish first hands-on project using Student Assessment, Google Classroom",
+      "Month 7: Ready to apply for Teacher roles"
+    ],
+    "recommended_projects": [
+      "Beginner Teacher Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise Teacher Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "UI/UX Designer": {
+    "target_role": "UI/UX Designer",
+    "industry": "Design",
+    "typical_duration_months": 8.5,
+    "default_phases_count": 3,
+    "top_skills": [
+      "Wireframing",
+      "Sketch",
+      "Prototyping",
+      "InDesign",
+      "Adobe XD",
+      "Adobe Illustrator",
+      "User Research",
+      "Figma",
+      "Typography",
+      "Adobe Photoshop"
+    ],
+    "top_certifications": [
+      "Adobe Certified Expert",
+      "Certified Usability Analyst",
+      "UX Design Professional Certificate (Google)"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (2 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "User Research via Book + hands-on project",
+        "key_topics": [
+          "Wireframing",
+          "Sketch",
+          "Prototyping"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (2 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Wireframing via LinkedIn Learning course",
+        "key_topics": [
+          "Prototyping",
+          "InDesign",
+          "Adobe XD"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (2 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Prototyping via University certification course",
+        "key_topics": [
+          "Adobe XD",
+          "Adobe Illustrator",
+          "User Research"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 2: Complete foundational learning in User Research",
+      "Month 4: Finish first hands-on project using User Research, Wireframing",
+      "Month 8: Ready to apply for UI/UX Designer roles"
+    ],
+    "recommended_projects": [
+      "Beginner UI/UX Designer Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise UI/UX Designer Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  },
+  "VP of Sales": {
+    "target_role": "VP of Sales",
+    "industry": "Sales",
+    "typical_duration_months": 12.1,
+    "default_phases_count": 4,
+    "top_skills": [
+      "Cold Calling",
+      "Negotiation",
+      "Sales Forecasting",
+      "Lead Generation",
+      "Client Relationship Management",
+      "Salesforce",
+      "CRM Software"
+    ],
+    "top_certifications": [
+      "Salesforce Certified Administrator",
+      "HubSpot Sales Software Certification",
+      "Certified Sales Professional (CSP)"
+    ],
+    "phases": [
+      {
+        "phase_number": 1,
+        "title": "Foundation Building (3 mo)",
+        "level": "Beginner (Fundamentals & Syntax)",
+        "badge": "\ud83d\udfe2 Basic Fundamentals",
+        "details": "Sales Forecasting via Book + hands-on project",
+        "key_topics": [
+          "Cold Calling",
+          "Negotiation",
+          "Sales Forecasting"
+        ]
+      },
+      {
+        "phase_number": 2,
+        "title": "Core Skill Development (3 mo)",
+        "level": "Intermediate (Core Frameworks & Tools)",
+        "badge": "\ud83d\udfe1 Core Development",
+        "details": "Salesforce via Coursera course",
+        "key_topics": [
+          "Sales Forecasting",
+          "Lead Generation",
+          "Client Relationship Management"
+        ]
+      },
+      {
+        "phase_number": 3,
+        "title": "Hands-on Projects (3 mo)",
+        "level": "Upper-Intermediate (Real-world Architecture)",
+        "badge": "\ud83d\udfe0 Architecture & Systems",
+        "details": "Client Relationship Management via Mentorship program",
+        "key_topics": [
+          "Client Relationship Management",
+          "Salesforce",
+          "CRM Software"
+        ]
+      },
+      {
+        "phase_number": 4,
+        "title": "Advanced Specialization (3 mo)",
+        "level": "Advanced (Production & Optimization)",
+        "badge": "\ud83d\udd34 Advanced Specialization",
+        "details": "Lead Generation via University certification course",
+        "key_topics": [
+          "CRM Software"
+        ]
+      }
+    ],
+    "milestones": [
+      "Month 3: Complete foundational learning in Sales Forecasting",
+      "Month 7: Finish first hands-on project using Sales Forecasting, Salesforce",
+      "Month 14: Ready to apply for VP of Sales roles"
+    ],
+    "recommended_projects": [
+      "Beginner VP of Sales Starter Application (Clean architecture, CRUD, Unit testing)",
+      "Production-Ready Enterprise VP of Sales Platform (Scalable microservices, CI/CD, Cloud deploy)",
+      "End-to-End Capstone Portfolio Demonstration & Case Study"
+    ]
+  }
+}

@@ -1,0 +1,1307 @@
+{
+  "AI Research Engineer": {
+    "target_role": "AI Research Engineer",
+    "industry": "Data Science",
+    "required_skills": [
+      "PyTorch",
+      "Tableau",
+      "Data Visualization",
+      "Scikit-learn",
+      "Statistics",
+      "Power BI",
+      "Python",
+      "R",
+      "Pandas",
+      "NumPy",
+      "SQL",
+      "Machine Learning"
+    ],
+    "resource_map": {
+      "Scikit-learn": "Bootcamp program",
+      "NLP": "Book + hands-on project",
+      "Statistics": "Open-source contribution",
+      "R": "University certification course",
+      "Tableau": "YouTube tutorial series",
+      "PyTorch": "Udemy course",
+      "Deep Learning": "Mentorship program",
+      "Pandas": "Udemy course",
+      "NumPy": "Coursera course",
+      "Power BI": "YouTube tutorial series",
+      "Data Visualization": "YouTube tutorial series",
+      "Machine Learning": "Official documentation",
+      "Python": "Udemy course",
+      "SQL": "University certification course",
+      "TensorFlow": "Coursera course"
+    },
+    "avg_gap_months": 5.7
+  },
+  "Academic Advisor": {
+    "target_role": "Academic Advisor",
+    "industry": "Education",
+    "required_skills": [
+      "LMS Platforms",
+      "Classroom Management",
+      "Student Assessment",
+      "Curriculum Design",
+      "Google Classroom",
+      "Lesson Planning"
+    ],
+    "resource_map": {
+      "Google Classroom": "YouTube tutorial series",
+      "Student Assessment": "LinkedIn Learning course",
+      "Curriculum Design": "LinkedIn Learning course",
+      "Lesson Planning": "Book + hands-on project",
+      "Classroom Management": "Coursera course",
+      "LMS Platforms": "LinkedIn Learning course"
+    },
+    "avg_gap_months": 3.0
+  },
+  "Account Manager": {
+    "target_role": "Account Manager",
+    "industry": "Sales",
+    "required_skills": [
+      "Negotiation",
+      "Lead Generation",
+      "Client Relationship Management",
+      "Salesforce",
+      "Cold Calling",
+      "Sales Forecasting",
+      "CRM Software"
+    ],
+    "resource_map": {
+      "Salesforce": "Mentorship program",
+      "CRM Software": "Bootcamp program",
+      "Lead Generation": "YouTube tutorial series",
+      "Sales Forecasting": "LinkedIn Learning course",
+      "Cold Calling": "YouTube tutorial series",
+      "Client Relationship Management": "Coursera course",
+      "Negotiation": "Mentorship program"
+    },
+    "avg_gap_months": 3.4
+  },
+  "Backend Developer": {
+    "target_role": "Backend Developer",
+    "industry": "Information Technology",
+    "required_skills": [
+      "C++",
+      "TypeScript",
+      "Java",
+      "SQL",
+      "REST API",
+      "Git",
+      "React",
+      "Node.js",
+      "Kubernetes",
+      "Python",
+      "Microservices",
+      "AWS"
+    ],
+    "resource_map": {
+      "Java": "Official documentation",
+      "Linux": "Bootcamp program",
+      "Microservices": "YouTube tutorial series",
+      "REST API": "Coursera course",
+      "Docker": "Udemy course",
+      "JavaScript": "Book + hands-on project",
+      "Python": "Mentorship program",
+      "C++": "LinkedIn Learning course",
+      "React": "LinkedIn Learning course",
+      "AWS": "Book + hands-on project",
+      "SQL": "Open-source contribution",
+      "TypeScript": "Coursera course",
+      "Git": "University certification course",
+      "Node.js": "Bootcamp program",
+      "Kubernetes": "Official documentation"
+    },
+    "avg_gap_months": 5.1
+  },
+  "Brand Manager": {
+    "target_role": "Brand Manager",
+    "industry": "Marketing",
+    "required_skills": [
+      "PPC Advertising",
+      "A/B Testing",
+      "Email Marketing",
+      "Content Strategy",
+      "Copywriting",
+      "SEO",
+      "HubSpot",
+      "Social Media Marketing",
+      "Google Analytics",
+      "Brand Strategy"
+    ],
+    "resource_map": {
+      "Content Strategy": "Open-source contribution",
+      "Copywriting": "Mentorship program",
+      "A/B Testing": "Book + hands-on project",
+      "Social Media Marketing": "Udemy course",
+      "SEO": "University certification course",
+      "Brand Strategy": "Open-source contribution",
+      "Email Marketing": "Book + hands-on project",
+      "PPC Advertising": "LinkedIn Learning course",
+      "HubSpot": "YouTube tutorial series",
+      "Google Analytics": "Open-source contribution"
+    },
+    "avg_gap_months": 4.9
+  },
+  "Business Development Manager": {
+    "target_role": "Business Development Manager",
+    "industry": "Sales",
+    "required_skills": [
+      "Lead Generation",
+      "Cold Calling",
+      "Negotiation",
+      "CRM Software",
+      "Sales Forecasting",
+      "Salesforce",
+      "Client Relationship Management"
+    ],
+    "resource_map": {
+      "Client Relationship Management": "Coursera course",
+      "CRM Software": "YouTube tutorial series",
+      "Negotiation": "Coursera course",
+      "Lead Generation": "LinkedIn Learning course",
+      "Sales Forecasting": "Coursera course",
+      "Cold Calling": "LinkedIn Learning course",
+      "Salesforce": "Open-source contribution"
+    },
+    "avg_gap_months": 3.5
+  },
+  "Civil Engineer": {
+    "target_role": "Civil Engineer",
+    "industry": "Engineering",
+    "required_skills": [
+      "Project Management",
+      "Six Sigma",
+      "MATLAB",
+      "CAD Design",
+      "AutoCAD",
+      "SolidWorks",
+      "Structural Analysis"
+    ],
+    "resource_map": {
+      "CAD Design": "Mentorship program",
+      "Project Management": "Official documentation",
+      "MATLAB": "LinkedIn Learning course",
+      "SolidWorks": "LinkedIn Learning course",
+      "Structural Analysis": "Mentorship program",
+      "AutoCAD": "Open-source contribution",
+      "Six Sigma": "Open-source contribution"
+    },
+    "avg_gap_months": 3.4
+  },
+  "Clinical Research Coordinator": {
+    "target_role": "Clinical Research Coordinator",
+    "industry": "Healthcare",
+    "required_skills": [
+      "Vital Signs Monitoring",
+      "Patient Care",
+      "Medication Administration",
+      "Clinical Documentation",
+      "CPR Certified",
+      "Medical Records",
+      "HIPAA Compliance"
+    ],
+    "resource_map": {
+      "CPR Certified": "University certification course",
+      "HIPAA Compliance": "Coursera course",
+      "Clinical Documentation": "Mentorship program",
+      "Medication Administration": "Open-source contribution",
+      "Patient Care": "Coursera course",
+      "Vital Signs Monitoring": "Official documentation",
+      "Medical Records": "YouTube tutorial series"
+    },
+    "avg_gap_months": 3.4
+  },
+  "Cloud Engineer": {
+    "target_role": "Cloud Engineer",
+    "industry": "Information Technology",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "Docker",
+      "TypeScript",
+      "Git",
+      "Node.js",
+      "Java",
+      "REST API",
+      "Kubernetes",
+      "AWS",
+      "Linux",
+      "C++"
+    ],
+    "resource_map": {
+      "Git": "University certification course",
+      "Node.js": "YouTube tutorial series",
+      "Java": "Mentorship program",
+      "C++": "YouTube tutorial series",
+      "Python": "YouTube tutorial series",
+      "REST API": "Coursera course",
+      "Kubernetes": "Book + hands-on project",
+      "React": "Coursera course",
+      "Docker": "Official documentation",
+      "Microservices": "Coursera course",
+      "Linux": "YouTube tutorial series",
+      "TypeScript": "LinkedIn Learning course",
+      "AWS": "YouTube tutorial series",
+      "SQL": "YouTube tutorial series",
+      "JavaScript": "Book + hands-on project"
+    },
+    "avg_gap_months": 6.0
+  },
+  "Content Marketing Manager": {
+    "target_role": "Content Marketing Manager",
+    "industry": "Marketing",
+    "required_skills": [
+      "Google Analytics",
+      "SEO",
+      "Social Media Marketing",
+      "HubSpot",
+      "PPC Advertising",
+      "A/B Testing",
+      "Content Strategy",
+      "Email Marketing",
+      "Copywriting",
+      "Brand Strategy"
+    ],
+    "resource_map": {
+      "Copywriting": "Mentorship program",
+      "Social Media Marketing": "YouTube tutorial series",
+      "Google Analytics": "LinkedIn Learning course",
+      "A/B Testing": "LinkedIn Learning course",
+      "Email Marketing": "LinkedIn Learning course",
+      "HubSpot": "University certification course",
+      "Brand Strategy": "Bootcamp program",
+      "PPC Advertising": "Bootcamp program",
+      "SEO": "Mentorship program",
+      "Content Strategy": "Bootcamp program"
+    },
+    "avg_gap_months": 4.9
+  },
+  "Curriculum Developer": {
+    "target_role": "Curriculum Developer",
+    "industry": "Education",
+    "required_skills": [
+      "Google Classroom",
+      "Classroom Management",
+      "Curriculum Design",
+      "Student Assessment",
+      "Lesson Planning",
+      "LMS Platforms"
+    ],
+    "resource_map": {
+      "LMS Platforms": "Bootcamp program",
+      "Classroom Management": "Book + hands-on project",
+      "Curriculum Design": "University certification course",
+      "Lesson Planning": "Official documentation",
+      "Student Assessment": "YouTube tutorial series",
+      "Google Classroom": "Official documentation"
+    },
+    "avg_gap_months": 3.1
+  },
+  "Data Scientist": {
+    "target_role": "Data Scientist",
+    "industry": "Data Science",
+    "required_skills": [
+      "PyTorch",
+      "Machine Learning",
+      "TensorFlow",
+      "NLP",
+      "Scikit-learn",
+      "Python",
+      "Data Visualization",
+      "NumPy",
+      "SQL",
+      "R",
+      "Pandas",
+      "Tableau"
+    ],
+    "resource_map": {
+      "NLP": "Udemy course",
+      "Power BI": "University certification course",
+      "R": "Book + hands-on project",
+      "Pandas": "University certification course",
+      "Scikit-learn": "Open-source contribution",
+      "TensorFlow": "University certification course",
+      "Data Visualization": "LinkedIn Learning course",
+      "NumPy": "Bootcamp program",
+      "Deep Learning": "Coursera course",
+      "PyTorch": "Book + hands-on project",
+      "Machine Learning": "Bootcamp program",
+      "Tableau": "Mentorship program",
+      "Statistics": "Book + hands-on project",
+      "SQL": "University certification course",
+      "Python": "LinkedIn Learning course"
+    },
+    "avg_gap_months": 4.5
+  },
+  "Dean": {
+    "target_role": "Dean",
+    "industry": "Education",
+    "required_skills": [
+      "LMS Platforms",
+      "Google Classroom",
+      "Lesson Planning",
+      "Student Assessment",
+      "Classroom Management",
+      "Curriculum Design"
+    ],
+    "resource_map": {
+      "LMS Platforms": "Udemy course",
+      "Google Classroom": "YouTube tutorial series",
+      "Lesson Planning": "Book + hands-on project",
+      "Student Assessment": "LinkedIn Learning course",
+      "Curriculum Design": "Udemy course",
+      "Classroom Management": "University certification course"
+    },
+    "avg_gap_months": 3.1
+  },
+  "Design Lead": {
+    "target_role": "Design Lead",
+    "industry": "Design",
+    "required_skills": [
+      "Typography",
+      "Sketch",
+      "Adobe Photoshop",
+      "Wireframing",
+      "User Research",
+      "Adobe Illustrator",
+      "Prototyping",
+      "InDesign",
+      "Figma",
+      "Adobe XD"
+    ],
+    "resource_map": {
+      "Adobe XD": "Book + hands-on project",
+      "Figma": "Coursera course",
+      "Adobe Photoshop": "Book + hands-on project",
+      "InDesign": "Open-source contribution",
+      "Typography": "YouTube tutorial series",
+      "User Research": "Udemy course",
+      "Adobe Illustrator": "Bootcamp program",
+      "Prototyping": "LinkedIn Learning course",
+      "Wireframing": "Coursera course",
+      "Sketch": "Official documentation"
+    },
+    "avg_gap_months": 4.9
+  },
+  "DevOps Engineer": {
+    "target_role": "DevOps Engineer",
+    "industry": "Information Technology",
+    "required_skills": [
+      "C++",
+      "Kubernetes",
+      "Java",
+      "Docker",
+      "SQL",
+      "Linux",
+      "Node.js",
+      "React",
+      "Microservices",
+      "REST API",
+      "Python",
+      "JavaScript"
+    ],
+    "resource_map": {
+      "AWS": "LinkedIn Learning course",
+      "JavaScript": "Udemy course",
+      "TypeScript": "University certification course",
+      "Node.js": "Coursera course",
+      "Java": "Udemy course",
+      "SQL": "Udemy course",
+      "Kubernetes": "Udemy course",
+      "REST API": "LinkedIn Learning course",
+      "Python": "Udemy course",
+      "Microservices": "Udemy course",
+      "Linux": "Mentorship program",
+      "Docker": "Official documentation",
+      "C++": "Open-source contribution",
+      "Git": "YouTube tutorial series",
+      "React": "Mentorship program"
+    },
+    "avg_gap_months": 5.8
+  },
+  "Digital Marketing Specialist": {
+    "target_role": "Digital Marketing Specialist",
+    "industry": "Marketing",
+    "required_skills": [
+      "Brand Strategy",
+      "Email Marketing",
+      "PPC Advertising",
+      "HubSpot",
+      "A/B Testing",
+      "Content Strategy",
+      "Copywriting",
+      "SEO",
+      "Google Analytics",
+      "Social Media Marketing"
+    ],
+    "resource_map": {
+      "PPC Advertising": "Bootcamp program",
+      "A/B Testing": "YouTube tutorial series",
+      "Copywriting": "Book + hands-on project",
+      "SEO": "Open-source contribution",
+      "Brand Strategy": "Udemy course",
+      "Email Marketing": "YouTube tutorial series",
+      "Google Analytics": "LinkedIn Learning course",
+      "Content Strategy": "Mentorship program",
+      "HubSpot": "YouTube tutorial series",
+      "Social Media Marketing": "Bootcamp program"
+    },
+    "avg_gap_months": 4.2
+  },
+  "Director of Nursing": {
+    "target_role": "Director of Nursing",
+    "industry": "Healthcare",
+    "required_skills": [
+      "CPR Certified",
+      "HIPAA Compliance",
+      "Medical Records",
+      "Patient Care",
+      "Vital Signs Monitoring",
+      "Clinical Documentation",
+      "Medication Administration"
+    ],
+    "resource_map": {
+      "Medication Administration": "Official documentation",
+      "Vital Signs Monitoring": "YouTube tutorial series",
+      "Patient Care": "Open-source contribution",
+      "HIPAA Compliance": "YouTube tutorial series",
+      "CPR Certified": "Coursera course",
+      "Clinical Documentation": "YouTube tutorial series",
+      "Medical Records": "Mentorship program"
+    },
+    "avg_gap_months": 3.5
+  },
+  "Engineering Manager": {
+    "target_role": "Engineering Manager",
+    "industry": "Engineering",
+    "required_skills": [
+      "MATLAB",
+      "Project Management",
+      "Structural Analysis",
+      "Six Sigma",
+      "AutoCAD",
+      "SolidWorks",
+      "CAD Design",
+      "Python",
+      "REST API",
+      "Kubernetes",
+      "AWS",
+      "Java"
+    ],
+    "resource_map": {
+      "MATLAB": "YouTube tutorial series",
+      "Six Sigma": "Udemy course",
+      "CAD Design": "Book + hands-on project",
+      "AutoCAD": "Open-source contribution",
+      "Project Management": "Open-source contribution",
+      "TypeScript": "Open-source contribution",
+      "JavaScript": "Book + hands-on project",
+      "Node.js": "YouTube tutorial series",
+      "React": "Official documentation",
+      "Git": "Mentorship program",
+      "SolidWorks": "Mentorship program",
+      "AWS": "Open-source contribution",
+      "Microservices": "Book + hands-on project",
+      "Kubernetes": "LinkedIn Learning course",
+      "Docker": "LinkedIn Learning course",
+      "SQL": "Book + hands-on project",
+      "Python": "Coursera course",
+      "C++": "YouTube tutorial series",
+      "Java": "Open-source contribution",
+      "Structural Analysis": "Mentorship program",
+      "Linux": "Open-source contribution",
+      "REST API": "Open-source contribution"
+    },
+    "avg_gap_months": 4.5
+  },
+  "Finance Director": {
+    "target_role": "Finance Director",
+    "industry": "Finance",
+    "required_skills": [
+      "Financial Reporting",
+      "Budgeting",
+      "Financial Modeling",
+      "Risk Management",
+      "Excel",
+      "QuickBooks",
+      "Auditing",
+      "Taxation",
+      "Forecasting",
+      "SAP"
+    ],
+    "resource_map": {
+      "Excel": "Coursera course",
+      "Financial Reporting": "Udemy course",
+      "Auditing": "Bootcamp program",
+      "Forecasting": "Book + hands-on project",
+      "Budgeting": "University certification course",
+      "SAP": "LinkedIn Learning course",
+      "Financial Modeling": "Book + hands-on project",
+      "Taxation": "Official documentation",
+      "QuickBooks": "Coursera course",
+      "Risk Management": "University certification course"
+    },
+    "avg_gap_months": 5.0
+  },
+  "Financial Analyst": {
+    "target_role": "Financial Analyst",
+    "industry": "Finance",
+    "required_skills": [
+      "Financial Reporting",
+      "QuickBooks",
+      "Budgeting",
+      "Taxation",
+      "Auditing",
+      "SAP",
+      "Risk Management",
+      "Financial Modeling",
+      "Forecasting",
+      "Excel"
+    ],
+    "resource_map": {
+      "Auditing": "University certification course",
+      "SAP": "Official documentation",
+      "Financial Reporting": "Bootcamp program",
+      "Forecasting": "Open-source contribution",
+      "Excel": "Bootcamp program",
+      "Financial Modeling": "YouTube tutorial series",
+      "Risk Management": "Open-source contribution",
+      "QuickBooks": "Official documentation",
+      "Budgeting": "Official documentation",
+      "Taxation": "Coursera course"
+    },
+    "avg_gap_months": 4.2
+  },
+  "Financial Controller": {
+    "target_role": "Financial Controller",
+    "industry": "Finance",
+    "required_skills": [
+      "Financial Reporting",
+      "Excel",
+      "Budgeting",
+      "Taxation",
+      "QuickBooks",
+      "Financial Modeling",
+      "Auditing",
+      "Risk Management",
+      "SAP",
+      "Forecasting"
+    ],
+    "resource_map": {
+      "Auditing": "Coursera course",
+      "SAP": "Book + hands-on project",
+      "Taxation": "Official documentation",
+      "Excel": "Coursera course",
+      "Risk Management": "University certification course",
+      "Financial Modeling": "University certification course",
+      "Financial Reporting": "Bootcamp program",
+      "QuickBooks": "Open-source contribution",
+      "Budgeting": "Open-source contribution",
+      "Forecasting": "YouTube tutorial series"
+    },
+    "avg_gap_months": 4.8
+  },
+  "Full Stack Developer": {
+    "target_role": "Full Stack Developer",
+    "industry": "Information Technology",
+    "required_skills": [
+      "REST API",
+      "Kubernetes",
+      "Microservices",
+      "Docker",
+      "Node.js",
+      "React",
+      "JavaScript",
+      "Linux",
+      "C++",
+      "SQL",
+      "Java",
+      "Git"
+    ],
+    "resource_map": {
+      "Git": "Open-source contribution",
+      "Node.js": "YouTube tutorial series",
+      "Kubernetes": "Book + hands-on project",
+      "Python": "Book + hands-on project",
+      "Java": "Book + hands-on project",
+      "C++": "Official documentation",
+      "JavaScript": "Mentorship program",
+      "SQL": "Book + hands-on project",
+      "Microservices": "Mentorship program",
+      "AWS": "YouTube tutorial series",
+      "React": "Open-source contribution",
+      "REST API": "Udemy course",
+      "Docker": "Mentorship program",
+      "Linux": "Book + hands-on project",
+      "TypeScript": "Book + hands-on project"
+    },
+    "avg_gap_months": 5.5
+  },
+  "HR Business Partner": {
+    "target_role": "HR Business Partner",
+    "industry": "Human Resources",
+    "required_skills": [
+      "HRIS",
+      "Employee Relations",
+      "Onboarding",
+      "Recruitment",
+      "Payroll",
+      "Performance Management",
+      "Labor Law Compliance"
+    ],
+    "resource_map": {
+      "Labor Law Compliance": "YouTube tutorial series",
+      "HRIS": "Bootcamp program",
+      "Recruitment": "University certification course",
+      "Performance Management": "YouTube tutorial series",
+      "Onboarding": "LinkedIn Learning course",
+      "Employee Relations": "Udemy course",
+      "Payroll": "Udemy course"
+    },
+    "avg_gap_months": 3.3
+  },
+  "HR Director": {
+    "target_role": "HR Director",
+    "industry": "Human Resources",
+    "required_skills": [
+      "Performance Management",
+      "Recruitment",
+      "HRIS",
+      "Onboarding",
+      "Payroll",
+      "Employee Relations",
+      "Labor Law Compliance"
+    ],
+    "resource_map": {
+      "Onboarding": "Open-source contribution",
+      "Payroll": "Mentorship program",
+      "Employee Relations": "Mentorship program",
+      "HRIS": "LinkedIn Learning course",
+      "Performance Management": "Mentorship program",
+      "Recruitment": "Book + hands-on project",
+      "Labor Law Compliance": "Official documentation"
+    },
+    "avg_gap_months": 3.6
+  },
+  "HR Manager": {
+    "target_role": "HR Manager",
+    "industry": "Human Resources",
+    "required_skills": [
+      "Onboarding",
+      "Employee Relations",
+      "Payroll",
+      "Recruitment",
+      "Performance Management",
+      "HRIS",
+      "Labor Law Compliance"
+    ],
+    "resource_map": {
+      "Labor Law Compliance": "YouTube tutorial series",
+      "Recruitment": "Udemy course",
+      "Payroll": "Mentorship program",
+      "Performance Management": "University certification course",
+      "HRIS": "Mentorship program",
+      "Employee Relations": "Bootcamp program",
+      "Onboarding": "Bootcamp program"
+    },
+    "avg_gap_months": 3.4
+  },
+  "Head of Data Science": {
+    "target_role": "Head of Data Science",
+    "industry": "Data Science",
+    "required_skills": [
+      "Scikit-learn",
+      "Power BI",
+      "Pandas",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Deep Learning",
+      "Tableau",
+      "SQL",
+      "Machine Learning",
+      "NLP",
+      "Data Visualization"
+    ],
+    "resource_map": {
+      "Python": "Bootcamp program",
+      "Scikit-learn": "Book + hands-on project",
+      "NLP": "Official documentation",
+      "Pandas": "Official documentation",
+      "Machine Learning": "LinkedIn Learning course",
+      "Deep Learning": "Coursera course",
+      "SQL": "Bootcamp program",
+      "Data Visualization": "Official documentation",
+      "TensorFlow": "Open-source contribution",
+      "Power BI": "Mentorship program",
+      "Statistics": "YouTube tutorial series",
+      "PyTorch": "Udemy course",
+      "NumPy": "Open-source contribution",
+      "R": "Bootcamp program",
+      "Tableau": "Mentorship program"
+    },
+    "avg_gap_months": 5.7
+  },
+  "Healthcare Administrator": {
+    "target_role": "Healthcare Administrator",
+    "industry": "Healthcare",
+    "required_skills": [
+      "Medication Administration",
+      "CPR Certified",
+      "Vital Signs Monitoring",
+      "Medical Records",
+      "HIPAA Compliance",
+      "Patient Care",
+      "Clinical Documentation"
+    ],
+    "resource_map": {
+      "HIPAA Compliance": "Official documentation",
+      "Patient Care": "Coursera course",
+      "Medical Records": "Udemy course",
+      "Vital Signs Monitoring": "LinkedIn Learning course",
+      "CPR Certified": "Official documentation",
+      "Medication Administration": "YouTube tutorial series",
+      "Clinical Documentation": "Open-source contribution"
+    },
+    "avg_gap_months": 3.5
+  },
+  "Investment Banker": {
+    "target_role": "Investment Banker",
+    "industry": "Finance",
+    "required_skills": [
+      "Budgeting",
+      "QuickBooks",
+      "SAP",
+      "Auditing",
+      "Risk Management",
+      "Financial Modeling",
+      "Excel",
+      "Taxation",
+      "Financial Reporting",
+      "Forecasting"
+    ],
+    "resource_map": {
+      "Risk Management": "University certification course",
+      "Taxation": "Mentorship program",
+      "Excel": "Udemy course",
+      "Auditing": "YouTube tutorial series",
+      "Forecasting": "Udemy course",
+      "Financial Modeling": "LinkedIn Learning course",
+      "SAP": "Udemy course",
+      "Financial Reporting": "Bootcamp program",
+      "Budgeting": "Bootcamp program",
+      "QuickBooks": "YouTube tutorial series"
+    },
+    "avg_gap_months": 5.0
+  },
+  "Machine Learning Engineer": {
+    "target_role": "Machine Learning Engineer",
+    "industry": "Data Science",
+    "required_skills": [
+      "NLP",
+      "Deep Learning",
+      "Tableau",
+      "TensorFlow",
+      "Pandas",
+      "Statistics",
+      "PyTorch",
+      "SQL",
+      "NumPy",
+      "Machine Learning",
+      "Scikit-learn",
+      "Power BI"
+    ],
+    "resource_map": {
+      "NumPy": "LinkedIn Learning course",
+      "R": "Book + hands-on project",
+      "PyTorch": "Official documentation",
+      "Pandas": "Udemy course",
+      "Statistics": "Mentorship program",
+      "Scikit-learn": "Udemy course",
+      "Deep Learning": "LinkedIn Learning course",
+      "Machine Learning": "Book + hands-on project",
+      "SQL": "Open-source contribution",
+      "Data Visualization": "Book + hands-on project",
+      "Tableau": "Book + hands-on project",
+      "Power BI": "Open-source contribution",
+      "TensorFlow": "Udemy course",
+      "NLP": "University certification course",
+      "Python": "Bootcamp program"
+    },
+    "avg_gap_months": 5.2
+  },
+  "Marketing Director": {
+    "target_role": "Marketing Director",
+    "industry": "Marketing",
+    "required_skills": [
+      "HubSpot",
+      "Email Marketing",
+      "Content Strategy",
+      "A/B Testing",
+      "Google Analytics",
+      "Brand Strategy",
+      "Social Media Marketing",
+      "Copywriting",
+      "SEO",
+      "PPC Advertising"
+    ],
+    "resource_map": {
+      "HubSpot": "Bootcamp program",
+      "SEO": "YouTube tutorial series",
+      "Brand Strategy": "Bootcamp program",
+      "PPC Advertising": "Book + hands-on project",
+      "A/B Testing": "Bootcamp program",
+      "Google Analytics": "LinkedIn Learning course",
+      "Content Strategy": "Coursera course",
+      "Email Marketing": "Coursera course",
+      "Copywriting": "Udemy course",
+      "Social Media Marketing": "Book + hands-on project"
+    },
+    "avg_gap_months": 5.0
+  },
+  "Mechanical Engineer": {
+    "target_role": "Mechanical Engineer",
+    "industry": "Engineering",
+    "required_skills": [
+      "AutoCAD",
+      "MATLAB",
+      "Project Management",
+      "CAD Design",
+      "SolidWorks",
+      "Structural Analysis",
+      "Six Sigma"
+    ],
+    "resource_map": {
+      "Structural Analysis": "Mentorship program",
+      "AutoCAD": "University certification course",
+      "MATLAB": "Bootcamp program",
+      "SolidWorks": "Book + hands-on project",
+      "CAD Design": "LinkedIn Learning course",
+      "Project Management": "Mentorship program",
+      "Six Sigma": "Book + hands-on project"
+    },
+    "avg_gap_months": 3.3
+  },
+  "Product Designer": {
+    "target_role": "Product Designer",
+    "industry": "Design",
+    "required_skills": [
+      "Prototyping",
+      "User Research",
+      "InDesign",
+      "Typography",
+      "Adobe Photoshop",
+      "Adobe XD",
+      "Wireframing",
+      "Figma",
+      "Sketch",
+      "Adobe Illustrator"
+    ],
+    "resource_map": {
+      "Adobe Photoshop": "Udemy course",
+      "Wireframing": "Open-source contribution",
+      "Adobe XD": "Mentorship program",
+      "Adobe Illustrator": "Bootcamp program",
+      "InDesign": "Bootcamp program",
+      "Prototyping": "Udemy course",
+      "User Research": "Official documentation",
+      "Typography": "LinkedIn Learning course",
+      "Figma": "Udemy course",
+      "Sketch": "Book + hands-on project"
+    },
+    "avg_gap_months": 4.7
+  },
+  "Professor": {
+    "target_role": "Professor",
+    "industry": "Education",
+    "required_skills": [
+      "Curriculum Design",
+      "Classroom Management",
+      "LMS Platforms",
+      "Lesson Planning",
+      "Google Classroom",
+      "Student Assessment"
+    ],
+    "resource_map": {
+      "Lesson Planning": "Coursera course",
+      "Student Assessment": "Official documentation",
+      "Curriculum Design": "University certification course",
+      "Classroom Management": "Book + hands-on project",
+      "Google Classroom": "Coursera course",
+      "LMS Platforms": "Open-source contribution"
+    },
+    "avg_gap_months": 3.1
+  },
+  "Recruiter": {
+    "target_role": "Recruiter",
+    "industry": "Human Resources",
+    "required_skills": [
+      "Employee Relations",
+      "Payroll",
+      "Onboarding",
+      "Labor Law Compliance",
+      "HRIS",
+      "Recruitment",
+      "Performance Management"
+    ],
+    "resource_map": {
+      "Onboarding": "YouTube tutorial series",
+      "Recruitment": "Official documentation",
+      "Employee Relations": "YouTube tutorial series",
+      "Performance Management": "Book + hands-on project",
+      "Labor Law Compliance": "University certification course",
+      "Payroll": "Open-source contribution",
+      "HRIS": "Official documentation"
+    },
+    "avg_gap_months": 3.2
+  },
+  "Regional Sales Manager": {
+    "target_role": "Regional Sales Manager",
+    "industry": "Sales",
+    "required_skills": [
+      "Lead Generation",
+      "Cold Calling",
+      "Client Relationship Management",
+      "Negotiation",
+      "CRM Software",
+      "Salesforce",
+      "Sales Forecasting"
+    ],
+    "resource_map": {
+      "Cold Calling": "Book + hands-on project",
+      "Client Relationship Management": "Bootcamp program",
+      "Salesforce": "Book + hands-on project",
+      "CRM Software": "Mentorship program",
+      "Lead Generation": "Coursera course",
+      "Negotiation": "YouTube tutorial series",
+      "Sales Forecasting": "Open-source contribution"
+    },
+    "avg_gap_months": 3.6
+  },
+  "Registered Nurse": {
+    "target_role": "Registered Nurse",
+    "industry": "Healthcare",
+    "required_skills": [
+      "HIPAA Compliance",
+      "Patient Care",
+      "Medication Administration",
+      "Medical Records",
+      "Vital Signs Monitoring",
+      "CPR Certified",
+      "Clinical Documentation"
+    ],
+    "resource_map": {
+      "Clinical Documentation": "Official documentation",
+      "CPR Certified": "Book + hands-on project",
+      "Patient Care": "LinkedIn Learning course",
+      "Medication Administration": "LinkedIn Learning course",
+      "Vital Signs Monitoring": "YouTube tutorial series",
+      "HIPAA Compliance": "Udemy course",
+      "Medical Records": "Book + hands-on project"
+    },
+    "avg_gap_months": 3.2
+  },
+  "Risk Analyst": {
+    "target_role": "Risk Analyst",
+    "industry": "Finance",
+    "required_skills": [
+      "SAP",
+      "Excel",
+      "Financial Reporting",
+      "Risk Management",
+      "QuickBooks",
+      "Financial Modeling",
+      "Budgeting",
+      "Forecasting",
+      "Taxation",
+      "Auditing"
+    ],
+    "resource_map": {
+      "Risk Management": "Bootcamp program",
+      "SAP": "YouTube tutorial series",
+      "Forecasting": "University certification course",
+      "Auditing": "University certification course",
+      "Budgeting": "LinkedIn Learning course",
+      "QuickBooks": "Udemy course",
+      "Financial Modeling": "YouTube tutorial series",
+      "Taxation": "Official documentation",
+      "Excel": "Open-source contribution",
+      "Financial Reporting": "Mentorship program"
+    },
+    "avg_gap_months": 4.5
+  },
+  "SEO Specialist": {
+    "target_role": "SEO Specialist",
+    "industry": "Marketing",
+    "required_skills": [
+      "Content Strategy",
+      "A/B Testing",
+      "Email Marketing",
+      "Copywriting",
+      "Social Media Marketing",
+      "SEO",
+      "Brand Strategy",
+      "PPC Advertising",
+      "HubSpot",
+      "Google Analytics"
+    ],
+    "resource_map": {
+      "Content Strategy": "Udemy course",
+      "SEO": "Coursera course",
+      "PPC Advertising": "University certification course",
+      "Google Analytics": "Open-source contribution",
+      "Email Marketing": "Open-source contribution",
+      "Copywriting": "Mentorship program",
+      "Social Media Marketing": "Coursera course",
+      "HubSpot": "Bootcamp program",
+      "A/B Testing": "Udemy course",
+      "Brand Strategy": "Book + hands-on project"
+    },
+    "avg_gap_months": 4.5
+  },
+  "Sales Executive": {
+    "target_role": "Sales Executive",
+    "industry": "Sales",
+    "required_skills": [
+      "Negotiation",
+      "Sales Forecasting",
+      "CRM Software",
+      "Salesforce",
+      "Cold Calling",
+      "Lead Generation",
+      "Client Relationship Management"
+    ],
+    "resource_map": {
+      "Negotiation": "Bootcamp program",
+      "CRM Software": "LinkedIn Learning course",
+      "Client Relationship Management": "Coursera course",
+      "Lead Generation": "LinkedIn Learning course",
+      "Salesforce": "Coursera course",
+      "Sales Forecasting": "Udemy course",
+      "Cold Calling": "Official documentation"
+    },
+    "avg_gap_months": 3.2
+  },
+  "Senior Data Scientist": {
+    "target_role": "Senior Data Scientist",
+    "industry": "Data Science",
+    "required_skills": [
+      "SQL",
+      "Statistics",
+      "Machine Learning",
+      "NumPy",
+      "Power BI",
+      "Tableau",
+      "Deep Learning",
+      "Pandas",
+      "PyTorch",
+      "Data Visualization",
+      "Scikit-learn",
+      "NLP"
+    ],
+    "resource_map": {
+      "R": "Book + hands-on project",
+      "Deep Learning": "YouTube tutorial series",
+      "NLP": "Coursera course",
+      "SQL": "Official documentation",
+      "Tableau": "Udemy course",
+      "Statistics": "Udemy course",
+      "PyTorch": "Open-source contribution",
+      "TensorFlow": "Book + hands-on project",
+      "Python": "LinkedIn Learning course",
+      "Scikit-learn": "LinkedIn Learning course",
+      "NumPy": "LinkedIn Learning course",
+      "Data Visualization": "Open-source contribution",
+      "Machine Learning": "University certification course",
+      "Pandas": "Official documentation",
+      "Power BI": "Bootcamp program"
+    },
+    "avg_gap_months": 5.5
+  },
+  "Senior Engineer": {
+    "target_role": "Senior Engineer",
+    "industry": "Engineering",
+    "required_skills": [
+      "Six Sigma",
+      "MATLAB",
+      "AutoCAD",
+      "CAD Design",
+      "Project Management",
+      "Structural Analysis",
+      "SolidWorks"
+    ],
+    "resource_map": {
+      "AutoCAD": "Book + hands-on project",
+      "Structural Analysis": "LinkedIn Learning course",
+      "MATLAB": "Coursera course",
+      "CAD Design": "LinkedIn Learning course",
+      "Project Management": "University certification course",
+      "Six Sigma": "Official documentation",
+      "SolidWorks": "Bootcamp program"
+    },
+    "avg_gap_months": 3.5
+  },
+  "Senior Product Designer": {
+    "target_role": "Senior Product Designer",
+    "industry": "Design",
+    "required_skills": [
+      "Figma",
+      "Adobe Illustrator",
+      "Sketch",
+      "User Research",
+      "Prototyping",
+      "InDesign",
+      "Adobe Photoshop",
+      "Wireframing",
+      "Adobe XD",
+      "Typography"
+    ],
+    "resource_map": {
+      "Adobe Illustrator": "LinkedIn Learning course",
+      "Wireframing": "Coursera course",
+      "Sketch": "University certification course",
+      "Prototyping": "YouTube tutorial series",
+      "Figma": "Mentorship program",
+      "User Research": "Official documentation",
+      "Adobe XD": "Bootcamp program",
+      "InDesign": "YouTube tutorial series",
+      "Typography": "Udemy course",
+      "Adobe Photoshop": "Udemy course"
+    },
+    "avg_gap_months": 4.8
+  },
+  "Software Engineer": {
+    "target_role": "Software Engineer",
+    "industry": "Information Technology",
+    "required_skills": [
+      "REST API",
+      "Docker",
+      "Java",
+      "JavaScript",
+      "AWS",
+      "Python",
+      "Node.js",
+      "Git",
+      "React",
+      "SQL",
+      "Kubernetes",
+      "Linux"
+    ],
+    "resource_map": {
+      "C++": "University certification course",
+      "Node.js": "Mentorship program",
+      "Python": "LinkedIn Learning course",
+      "AWS": "Bootcamp program",
+      "Git": "YouTube tutorial series",
+      "Linux": "Udemy course",
+      "SQL": "Udemy course",
+      "Java": "LinkedIn Learning course",
+      "TypeScript": "Mentorship program",
+      "Kubernetes": "YouTube tutorial series",
+      "Microservices": "YouTube tutorial series",
+      "React": "University certification course",
+      "Docker": "Open-source contribution",
+      "JavaScript": "YouTube tutorial series",
+      "REST API": "Udemy course"
+    },
+    "avg_gap_months": 4.4
+  },
+  "Talent Acquisition Specialist": {
+    "target_role": "Talent Acquisition Specialist",
+    "industry": "Human Resources",
+    "required_skills": [
+      "Employee Relations",
+      "Onboarding",
+      "Recruitment",
+      "HRIS",
+      "Performance Management",
+      "Labor Law Compliance",
+      "Payroll"
+    ],
+    "resource_map": {
+      "Recruitment": "University certification course",
+      "Onboarding": "Coursera course",
+      "Performance Management": "YouTube tutorial series",
+      "Payroll": "Bootcamp program",
+      "Labor Law Compliance": "Udemy course",
+      "HRIS": "Mentorship program",
+      "Employee Relations": "University certification course"
+    },
+    "avg_gap_months": 3.5
+  },
+  "Teacher": {
+    "target_role": "Teacher",
+    "industry": "Education",
+    "required_skills": [
+      "Google Classroom",
+      "Student Assessment",
+      "Curriculum Design",
+      "Lesson Planning",
+      "Classroom Management",
+      "LMS Platforms"
+    ],
+    "resource_map": {
+      "Student Assessment": "Book + hands-on project",
+      "Classroom Management": "YouTube tutorial series",
+      "Google Classroom": "Mentorship program",
+      "Lesson Planning": "Official documentation",
+      "LMS Platforms": "Udemy course",
+      "Curriculum Design": "University certification course"
+    },
+    "avg_gap_months": 3.0
+  },
+  "UI/UX Designer": {
+    "target_role": "UI/UX Designer",
+    "industry": "Design",
+    "required_skills": [
+      "Adobe Illustrator",
+      "Wireframing",
+      "User Research",
+      "Figma",
+      "Prototyping",
+      "Typography",
+      "Sketch",
+      "Adobe XD",
+      "Adobe Photoshop",
+      "InDesign"
+    ],
+    "resource_map": {
+      "Adobe Illustrator": "Bootcamp program",
+      "User Research": "Coursera course",
+      "Figma": "Book + hands-on project",
+      "Typography": "YouTube tutorial series",
+      "Adobe XD": "Official documentation",
+      "InDesign": "University certification course",
+      "Sketch": "Bootcamp program",
+      "Wireframing": "Mentorship program",
+      "Prototyping": "Open-source contribution",
+      "Adobe Photoshop": "LinkedIn Learning course"
+    },
+    "avg_gap_months": 4.3
+  },
+  "VP of Sales": {
+    "target_role": "VP of Sales",
+    "industry": "Sales",
+    "required_skills": [
+      "Salesforce",
+      "Client Relationship Management",
+      "Sales Forecasting",
+      "CRM Software",
+      "Negotiation",
+      "Lead Generation",
+      "Cold Calling"
+    ],
+    "resource_map": {
+      "Sales Forecasting": "University certification course",
+      "Salesforce": "YouTube tutorial series",
+      "Negotiation": "University certification course",
+      "CRM Software": "Coursera course",
+      "Client Relationship Management": "Mentorship program",
+      "Lead Generation": "LinkedIn Learning course",
+      "Cold Calling": "Open-source contribution"
+    },
+    "avg_gap_months": 3.5
+  }
+}

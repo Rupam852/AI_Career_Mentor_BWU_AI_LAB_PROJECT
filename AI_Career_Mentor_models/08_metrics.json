@@ -1,0 +1,27 @@
+{
+  "dataset": "08_career_recommendation",
+  "target": "recommended_career",
+  "task": "multiclass_classification",
+  "n_classes": 63,
+  "top1_accuracy": 0.162875,
+  "top3_accuracy": 0.502375,
+  "top5_accuracy": 0.82945,
+  "n_rows": 200000,
+  "features": [
+    "years_experience",
+    "match_score",
+    "current_skills_count",
+    "work_style_enc",
+    "recommended_industry_enc",
+    "education_level_enc",
+    "interest_business",
+    "interest_communication",
+    "interest_data",
+    "interest_design",
+    "interest_healthcare",
+    "interest_people",
+    "interest_problem",
+    "interest_technology"
+  ],
+  "note": "With 63 fine-grained classes, use the top-3/top-5 ranked predict_proba output as a shortlist recommender in the app rather than relying on the single top-1 guess."
+}
