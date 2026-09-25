@@ -42,9 +42,10 @@
   --glow-purple: #c084fc;
   --glow-amber: #fbbf24;
 
-  /* Typography */
+  /* Ultra-Premium Tech Typography System (Outfit + Plus Jakarta Sans + JetBrains Mono) */
   --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  --font-heading: 'Plus Jakarta Sans', sans-serif;
+  --font-heading: 'Outfit', 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 
   /* Shape Radii (Material 3 Corner Tokens) */
   --radius-xs: 4px;
@@ -886,4 +887,286 @@ body {
   .m3-nav-item .material-symbols-outlined {
     font-size: 1.15rem;
   }
+}
+
+
+/* ==========================================================================
+   Light Mode Design System
+   Soft White Background, Light Buttons, Black/Charcoal Text
+   ========================================================================== */
+
+/* Theme Toggle Button in Navigation */
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.38rem 0.85rem;
+  border-radius: var(--radius-full);
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--md-sys-color-primary);
+  border: 1px solid var(--glass-border);
+  cursor: pointer;
+  transition: all var(--trans-fast);
+  backdrop-filter: blur(8px);
+}
+
+.theme-toggle-btn .material-symbols-outlined {
+  font-size: 1.15rem;
+  color: #facc15;
+}
+
+.theme-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.16);
+  border-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-1px);
+}
+
+/* Light Theme Variables & Overrides */
+body.light-mode {
+  --md-sys-color-surface: #f8fafc;
+  --md-sys-color-on-surface: #0f172a;
+  --md-sys-color-surface-variant: #e2e8f0;
+  --md-sys-color-on-surface-variant: #475569;
+  --md-sys-color-outline: #94a3b8;
+  --md-sys-color-outline-variant: rgba(0, 0, 0, 0.08);
+
+  --glass-surface-1: rgba(255, 255, 255, 0.88);
+  --glass-surface-2: rgba(255, 255, 255, 0.95);
+  --glass-surface-3: #ffffff;
+  --glass-border: rgba(0, 0, 0, 0.08);
+  --glass-border-hover: rgba(2, 132, 199, 0.35);
+  --glass-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+
+  background-color: #f8fafc;
+  background-image:
+    radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(192, 132, 252, 0.06) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(52, 211, 153, 0.06) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, rgba(219, 234, 254, 0.5) 0px, transparent 50%);
+  color: #0f172a;
+}
+
+/* Light Mode Nav Rail & Top Bar */
+body.light-mode .m3-nav-rail {
+  background: rgba(255, 255, 255, 0.92);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 2px 0 16px rgba(0, 0, 0, 0.03);
+}
+
+body.light-mode .nav-brand .brand-icon {
+  background: #e0f2fe;
+  color: #0284c7;
+  border-color: #bae6fd;
+}
+
+body.light-mode .nav-brand .brand-text {
+  color: #0f172a !important;
+}
+
+body.light-mode .m3-nav-item {
+  color: #475569;
+}
+
+body.light-mode .m3-nav-item .icon-wrapper {
+  background: #f1f5f9;
+  color: #334155;
+}
+
+body.light-mode .m3-nav-item:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+body.light-mode .m3-nav-item:hover .nav-label {
+  color: #0f172a;
+}
+
+body.light-mode .m3-nav-item.active {
+  color: #0284c7;
+}
+
+body.light-mode .m3-nav-item.active .icon-wrapper {
+  background: #dbeafe;
+  color: #0284c7;
+  box-shadow: 0 0 14px rgba(2, 132, 199, 0.25);
+}
+
+body.light-mode .m3-nav-item .nav-label {
+  color: #334155;
+}
+
+body.light-mode .m3-top-bar {
+  background: rgba(255, 255, 255, 0.9);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+body.light-mode .page-title,
+body.light-mode .page-title #top-page-title {
+  color: #0f172a !important;
+}
+
+body.light-mode .theme-toggle-btn {
+  background: #f1f5f9;
+  color: #0f172a;
+  border-color: #cbd5e1;
+}
+
+body.light-mode .theme-toggle-btn .material-symbols-outlined {
+  color: #d97706;
+}
+
+body.light-mode .theme-toggle-btn:hover {
+  background: #e2e8f0;
+  border-color: #94a3b8;
+}
+
+body.light-mode .status-badge {
+  background: rgba(16, 185, 129, 0.1);
+  color: #059669;
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
+/* Light Mode Cards, Hero, and Containers */
+body.light-mode .glass-hero {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(241, 245, 249, 0.9) 100%) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05) !important;
+}
+
+body.light-mode .glass-hero h1,
+body.light-mode h1,
+body.light-mode h2,
+body.light-mode h3,
+body.light-mode h4 {
+  color: #0f172a !important;
+}
+
+body.light-mode .glass-hero p {
+  color: #475569 !important;
+}
+
+body.light-mode .m3-card {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05) !important;
+}
+
+body.light-mode .m3-card:hover {
+  border-color: rgba(2, 132, 199, 0.4) !important;
+  box-shadow: 0 8px 28px rgba(2, 132, 199, 0.12) !important;
+}
+
+body.light-mode .card-title {
+  color: #0f172a !important;
+}
+
+body.light-mode .stat-val {
+  background: linear-gradient(135deg, #0f172a 0%, #0284c7 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+/* Light Mode Buttons: Soft light color background with black text */
+body.light-mode .m3-btn {
+  background: linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%) !important;
+  color: #0f172a !important;
+  border: 1px solid #cbd5e1 !important;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06) !important;
+  font-weight: 700;
+}
+
+body.light-mode .m3-btn:hover {
+  background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e1 100%) !important;
+  color: #000000 !important;
+  border-color: #94a3b8 !important;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Light Mode Form Elements */
+body.light-mode .m3-label {
+  color: #334155 !important;
+}
+
+body.light-mode .m3-input,
+body.light-mode .m3-select,
+body.light-mode .m3-textarea {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  border: 1px solid #cbd5e1 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+body.light-mode .m3-input:focus,
+body.light-mode .m3-select:focus,
+body.light-mode .m3-textarea:focus {
+  border-color: #0284c7 !important;
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.18) !important;
+  background: #ffffff !important;
+}
+
+body.light-mode .m3-select option {
+  background: #ffffff !important;
+  color: #0f172a !important;
+}
+
+/* Light Mode Chips */
+body.light-mode .m3-chip {
+  background: #f1f5f9;
+  border-color: #e2e8f0;
+  color: #334155;
+}
+
+body.light-mode .m3-chip:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+body.light-mode .m3-chip.selected {
+  background: #dbeafe;
+  color: #0284c7;
+  border-color: #93c5fd;
+  box-shadow: 0 0 10px rgba(2, 132, 199, 0.2);
+}
+
+/* Light Mode Results */
+body.light-mode .glass-result-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%) !important;
+  border: 1px solid rgba(2, 132, 199, 0.3) !important;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08) !important;
+  color: #0f172a;
+}
+
+body.light-mode .glass-result-card h3,
+body.light-mode .glass-result-card h4,
+body.light-mode .glass-result-card p,
+body.light-mode .glass-result-card div {
+  color: #0f172a;
+}
+
+/* Light Mode Badges */
+body.light-mode .badge-blue {
+  background: #e0f2fe !important;
+  color: #0369a1 !important;
+  border: 1px solid #bae6fd !important;
+}
+
+body.light-mode .badge-green {
+  background: #dcfce7 !important;
+  color: #15803d !important;
+  border: 1px solid #bbf7d0 !important;
+}
+
+body.light-mode .badge-purple {
+  background: #f3e8ff !important;
+  color: #7e22ce !important;
+  border: 1px solid #e9d5ff !important;
+}
+
+body.light-mode .badge-amber {
+  background: #fef3c7 !important;
+  color: #b45309 !important;
+  border: 1px solid #fde68a !important;
 }
