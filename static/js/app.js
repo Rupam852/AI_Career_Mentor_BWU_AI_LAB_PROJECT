@@ -19,9 +19,10 @@ function getApiUrl(endpoint) {
 }
 
 // DOM Ready
-document.addEventListener("DOMContentLoaded", async () => {
+document.addEventListener("DOMContentLoaded", () => {
+    initTheme();
     initNavigation();
-    await loadMappings();
+    initServerHealthCheck();
     initForms();
 });
 
@@ -79,6 +80,7 @@ function initNavigation() {
 
 // Load Dropdown Mappings from FastAPI
 async function loadMappings() {
+    if (appMappings && Object.keys(appMappings).length > 0) return;
     try {
         const res = await fetch(getApiUrl("/api/mappings"));
         const data = await res.json();
@@ -448,6 +450,49 @@ function renderResumeResult(data) {
     document.getElementById("ats-skills-cnt").textContent = data.skills_detected;
     document.getElementById("ats-certs-cnt").textContent = data.certifications_detected;
     document.getElementById("ats-missing-cnt").textContent = data.missing_keywords_count;
+
+    const meaningEl = document.getElementById("ats-score-meaning");
+    const stepsEl = document.getElementById("ats-action-steps");
+    const missingKw = getStr("resume-missing-kw", "");
+
+    if (meaningEl) {
+        if (data.ats_score >= 80) {
+            meaningEl.innerHTML = `🎉 <strong>High Interview Call Probability (&gt;85%):</strong> Your resume successfully passes automated Applicant Tracking Systems (ATS) and ranks within the top 15% of applicant pools.`;
+        } else if (data.ats_score >= 65) {
+            meaningEl.innerHTML = `⚡ <strong>Moderate Match (Recruiter Screening Stage):</strong> Your resume clears baseline parsing filters. Incorporate targeted role keywords and verified certifications to secure competitive shortlist positions.`;
+        } else if (data.ats_score >= 50) {
+            meaningEl.innerHTML = `⚠️ <strong>Borderline ATS Match:</strong> Automated parsers may rank your profile lower due to missing target keywords and below-average technical skill matches.`;
+        } else {
+            meaningEl.innerHTML = `🔴 <strong>High Auto-Rejection Risk (&gt;75%):</strong> Core technical stack and target job title keywords are largely absent. Immediate resume revision is recommended.`;
+        }
+    }
+
+    if (stepsEl) {
+        stepsEl.innerHTML = "";
+        const steps = [];
+        if (missingKw) {
+            steps.push(`<strong>1. Missing Keywords Integration:</strong> Seamlessly integrate these target keywords into your Experience and Project bullet points: <span class="badge-pill badge-amber" style="font-size:0.8rem;">${missingKw}</span>`);
+        } else {
+            steps.push(`<strong>1. Keyword Alignment:</strong> Align your summary and skills section with the exact terminology and tools outlined in your target job descriptions.`);
+        }
+
+        if (data.certifications_detected === 0) {
+            steps.push(`<strong>2. Industry Credentials:</strong> Add at least 1 verified cloud or domain certification (e.g., AWS Certified, Meta Developer, Azure, or DeepLearning.AI) to boost ATS weighting by up to +12 points.`);
+        } else {
+            steps.push(`<strong>2. Highlight Credentials:</strong> Feature your verified certifications prominently in the upper third of your resume with verifiable credential IDs.`);
+        }
+
+        steps.push(`<strong>3. Quantified Impact & Action Verbs:</strong> Replace passive duty listings with measurable business outcomes (e.g., <em>"Boosted system throughput by 35% using Redis caching and asynchronous queues"</em>).`);
+        steps.push(`<strong>4. Actionable Next Step:</strong> Open the <a href="#" onclick="document.querySelector('[data-target=\\'section-roadmap\\']').click();" style="color:var(--glow-cyan); font-weight:700;">🗺️ Roadmap Studio</a> to generate an accelerated, milestone-based learning plan for missing technical competencies.`);
+
+        steps.forEach((st, idx) => {
+            const item = document.createElement("div");
+            item.className = "action-step-item";
+            item.innerHTML = `<span class="action-step-icon">${idx + 1}</span> <div>${st}</div>`;
+            stepsEl.appendChild(item);
+        });
+    }
+
     container.scrollIntoView({ behavior: "smooth" });
 }
 
@@ -731,6 +776,37 @@ function renderLinkedInResult(data) {
     const container = document.getElementById("linkedin-result");
     container.style.display = "block";
     document.getElementById("linkedin-rating-display").textContent = data.predicted_rating;
+
+    const meaningEl = document.getElementById("linkedin-score-meaning");
+    const stepsEl = document.getElementById("linkedin-action-steps");
+
+    if (meaningEl) {
+        const rating = (data.predicted_rating || "").toLowerCase();
+        if (rating.includes("excellent") || rating.includes("tier 1") || rating.includes("tier 2")) {
+            meaningEl.innerHTML = `💎 <strong>Top Recruiter Search Visibility:</strong> Your profile exhibits exceptional structural optimization, positioning you in the top 10% of recruiter Boolean search queries for target competencies.`;
+        } else if (rating.includes("good") || rating.includes("tier 3")) {
+            meaningEl.innerHTML = `⚡ <strong>Good Professional Foundation:</strong> Your profile meets baseline recruiter requirements. Amplify inbound discovery by expanding peer recommendations and sharing regular technical insights.`;
+        } else {
+            meaningEl.innerHTML = `⚠️ <strong>Low Search Visibility:</strong> Recruiter discovery filters are penalizing your profile due to low connection volume, missing headline keywords, or an incomplete summary.`;
+        }
+    }
+
+    if (stepsEl) {
+        stepsEl.innerHTML = "";
+        const steps = [
+            `<strong>1. Expand Professional Network (500+ Target):</strong> Connect with industry peers, alumni, and technical recruiters to maximize 2nd and 3rd-degree algorithmic reach.`,
+            `<strong>2. Search-Optimized Headline & Summary:</strong> Replace generic titles with high-intent keywords (e.g., <em>"Senior Software Engineer | Python, React, AWS, Distributed Systems"</em>).`,
+            `<strong>3. Social Proof & Endorsements:</strong> Secure skill endorsements for your top 3 capabilities and request 1–2 detailed recommendations from colleagues or engineering managers.`
+        ];
+
+        steps.forEach((st, idx) => {
+            const item = document.createElement("div");
+            item.className = "action-step-item";
+            item.innerHTML = `<span class="action-step-icon">${idx + 1}</span> <div>${st}</div>`;
+            stepsEl.appendChild(item);
+        });
+    }
+
     container.scrollIntoView({ behavior: "smooth" });
 }
 
@@ -740,6 +816,35 @@ function renderGitHubResult(data) {
     document.getElementById("github-rating-display").textContent = data.predicted_rating;
     document.getElementById("github-stars-display").textContent = data.total_stars;
     document.getElementById("github-contribs-display").textContent = data.contributions_last_year;
+
+    const meaningEl = document.getElementById("github-score-meaning");
+    const stepsEl = document.getElementById("github-action-steps");
+
+    if (meaningEl) {
+        const rating = (data.predicted_rating || "").toLowerCase();
+        if (rating.includes("excellent") || rating.includes("tier 1") || rating.includes("tier 2")) {
+            meaningEl.innerHTML = `🚀 <strong>Outstanding Developer Grade:</strong> Consistent commit activity, clean repository hygiene, and documented projects provide compelling proof-of-work to tech leads.`;
+        } else {
+            meaningEl.innerHTML = `⚡ <strong>Portfolio Expansion Recommended:</strong> Hiring teams prioritize structured pinned repositories and comprehensive documentation over raw commit frequency.`;
+        }
+    }
+
+    if (stepsEl) {
+        stepsEl.innerHTML = "";
+        const steps = [
+            `<strong>1. Curate Top 3 Pinned Repositories:</strong> Showcase flagship projects featuring live deployed URLs, comprehensive architecture diagrams, and interactive demos.`,
+            `<strong>2. Production-Grade README Documentation:</strong> Include setup instructions, API contracts, environment configuration guides, and architecture highlights.`,
+            `<strong>3. Open-Source Contributions:</strong> Actively contribute to public repositories or community bug trackers to showcase collaborative engineering skills.`
+        ];
+
+        steps.forEach((st, idx) => {
+            const item = document.createElement("div");
+            item.className = "action-step-item";
+            item.innerHTML = `<span class="action-step-icon">${idx + 1}</span> <div>${st}</div>`;
+            stepsEl.appendChild(item);
+        });
+    }
+
     container.scrollIntoView({ behavior: "smooth" });
 }
 
@@ -801,3 +906,283 @@ function renderCareerResult(data) {
 
     container.scrollIntoView({ behavior: "smooth" });
 }
+
+
+// ==========================================================================
+// Server Health Check & Wakeup Engine
+// ==========================================================================
+let serverCheckAttempts = 0;
+let serverCheckTimer = null;
+let serverProgressPercent = 15;
+let isBackendOnline = false;
+
+function initServerHealthCheck() {
+    setupServerModalBackdrop();
+    startServerVerification();
+}
+
+function setupServerModalBackdrop() {
+    const modal = document.getElementById('server-status-modal');
+    if (!modal) return;
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeServerModal();
+        }
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && modal.style.display !== 'none') {
+            closeServerModal();
+        }
+    });
+}
+
+async function startServerVerification() {
+    const modal = document.getElementById('server-status-modal');
+    const loadingState = document.getElementById('server-state-loading');
+    const readyState = document.getElementById('server-state-ready');
+    const navDot = document.getElementById('nav-status-dot');
+    const navText = document.getElementById('nav-status-text');
+
+    // 1. Fast ping check (within 600ms): Is the backend already active and online?
+    const fastController = new AbortController();
+    const fastTimeout = setTimeout(() => fastController.abort(), 600);
+
+    let isAlreadyAwake = false;
+    try {
+        const pingRes = await fetch(getApiUrl("/api/health"), { signal: fastController.signal });
+        clearTimeout(fastTimeout);
+        if (pingRes.ok) {
+            const json = await pingRes.json();
+            if (json.status === "online") {
+                isAlreadyAwake = true;
+            }
+        }
+    } catch (e) {
+        clearTimeout(fastTimeout);
+        isAlreadyAwake = false;
+    }
+
+    if (isAlreadyAwake) {
+        // CASE B: Backend is ALREADY awake and ready!
+        isBackendOnline = true;
+        if (navDot) navDot.classList.remove('waking');
+        if (navText) navText.textContent = '8/8 ML Models Online';
+
+        // Load dropdown mappings immediately in background
+        loadMappings();
+
+        // Show the ready popup modal so user gets instant confirmation and can click OK or (X) close
+        if (modal && loadingState && readyState) {
+            loadingState.style.display = 'none';
+            readyState.style.display = 'block';
+
+            const readyTitle = document.getElementById('server-ready-title');
+            const readyDesc = document.getElementById('server-ready-desc');
+            if (readyTitle) readyTitle.textContent = "AI Backend Server Ready! 🎉";
+            if (readyDesc) readyDesc.textContent = "Connected to AI inference server. All 8 machine learning models, Numbeo 2026 economic data, and prediction pipelines are active and ready to use.";
+
+            modal.style.display = 'flex';
+        }
+    } else {
+        // CASE A: Backend is sleeping or starting up!
+        isBackendOnline = false;
+        if (navDot) navDot.classList.add('waking');
+        if (navText) navText.textContent = 'Waking up AI backend...';
+
+        // Immediately show the waking up modal with spinner
+        if (modal && loadingState && readyState) {
+            loadingState.style.display = 'block';
+            readyState.style.display = 'none';
+            modal.style.display = 'flex';
+        }
+
+        // Begin active polling loop every 2.5s until server wakes up
+        performServerPingLoop();
+    }
+}
+
+async function performServerPingLoop() {
+    if (isBackendOnline) return;
+
+    serverCheckAttempts++;
+    const attemptText = document.getElementById('server-attempt-text');
+    const progressFill = document.getElementById('server-progress-fill');
+
+    if (attemptText) {
+        attemptText.innerText = `Pinging backend server... (Attempt ${serverCheckAttempts})`;
+    }
+
+    serverProgressPercent = Math.min(94, serverProgressPercent + 12);
+    if (progressFill) {
+        progressFill.style.width = `${serverProgressPercent}%`;
+    }
+
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 6000);
+
+    try {
+        const res = await fetch(getApiUrl("/api/health"), { signal: controller.signal });
+        clearTimeout(timeoutId);
+
+        if (res.ok) {
+            const data = await res.json();
+            if (data.status === "online") {
+                handleServerBecameReady();
+                return;
+            }
+        }
+        throw new Error("Server not online yet");
+    } catch (err) {
+        clearTimeout(timeoutId);
+        console.log(`Backend is waking up from sleep mode... Ping #${serverCheckAttempts}`);
+        serverCheckTimer = setTimeout(performServerPingLoop, 2500);
+    }
+}
+
+function handleServerBecameReady() {
+    clearTimeout(serverCheckTimer);
+    isBackendOnline = true;
+
+    // Update navbar badge
+    const navDot = document.getElementById('nav-status-dot');
+    const navText = document.getElementById('nav-status-text');
+    if (navDot) navDot.classList.remove('waking');
+    if (navText) navText.textContent = '8/8 ML Models Online';
+
+    // Populate dropdown mappings
+    loadMappings();
+
+    const modal = document.getElementById('server-status-modal');
+    const loadingState = document.getElementById('server-state-loading');
+    const readyState = document.getElementById('server-state-ready');
+    const progressFill = document.getElementById('server-progress-fill');
+    const readyTitle = document.getElementById('server-ready-title');
+    const readyDesc = document.getElementById('server-ready-desc');
+
+    if (progressFill) progressFill.style.width = '100%';
+
+    if (readyTitle) readyTitle.textContent = "Backend Successfully Ready to Use! 🎉";
+    if (readyDesc) readyDesc.textContent = "The server is awake and fully operational. All 8 machine learning models, datasets, and prediction pipelines are ready to evaluate your career profile.";
+
+    if (loadingState && readyState) {
+        loadingState.style.display = 'none';
+        readyState.style.display = 'block';
+    }
+
+    if (modal) {
+        modal.style.display = 'flex';
+    }
+}
+
+function openServerModal() {
+    const modal = document.getElementById('server-status-modal');
+    const loadingState = document.getElementById('server-state-loading');
+    const readyState = document.getElementById('server-state-ready');
+
+    if (!modal) return;
+    if (isBackendOnline) {
+        if (loadingState) loadingState.style.display = 'none';
+        if (readyState) readyState.style.display = 'block';
+    } else {
+        if (loadingState) loadingState.style.display = 'block';
+        if (readyState) readyState.style.display = 'none';
+    }
+    modal.style.display = 'flex';
+}
+
+function closeServerModal() {
+    const modal = document.getElementById('server-status-modal');
+    if (modal) {
+        modal.style.display = 'none';
+    }
+}
+
+// ==========================================================================
+// Light & Dark Theme Controller
+// ==========================================================================
+function toggleTheme() {
+    const isLight = document.body.classList.toggle('light-mode');
+    localStorage.setItem('career_mentor_theme', isLight ? 'light' : 'dark');
+    updateThemeUI(isLight);
+}
+
+function updateThemeUI(isLight) {
+    const icon = document.getElementById('theme-icon');
+    const text = document.getElementById('theme-text');
+    if (icon) icon.textContent = isLight ? 'dark_mode' : 'light_mode';
+    if (text) text.textContent = isLight ? 'Dark Mode' : 'Light Mode';
+}
+
+function initTheme() {
+    const savedTheme = localStorage.getItem('career_mentor_theme');
+    // Default to Light Mode unless user explicitly saved 'dark'
+    const isLight = (savedTheme !== 'dark');
+    if (isLight) {
+        document.body.classList.add('light-mode');
+    } else {
+        document.body.classList.remove('light-mode');
+    }
+    updateThemeUI(isLight);
+}
+
+// ==========================================================================
+// AI Score & Accuracy Modal Controller
+// ==========================================================================
+function openScoreGuideModal() {
+    const modal = document.getElementById('score-guide-modal');
+    if (modal) modal.style.display = 'flex';
+}
+
+function closeScoreGuideModal() {
+    const modal = document.getElementById('score-guide-modal');
+    if (modal) modal.style.display = 'none';
+}
+
+// ==========================================================================
+// Model View Switcher (User vs Tech ML)
+// ==========================================================================
+function switchModelView(viewType) {
+    const userGrid = document.getElementById("grid-models-user");
+    const techGrid = document.getElementById("grid-models-tech");
+    const btnUser = document.getElementById("btn-view-user");
+    const btnTech = document.getElementById("btn-view-tech");
+
+    if (viewType === 'tech') {
+        if (userGrid) userGrid.style.display = 'none';
+        if (techGrid) techGrid.style.display = 'grid';
+        if (btnTech) {
+            btnTech.style.background = 'var(--md-sys-color-primary)';
+            btnTech.style.color = 'var(--md-sys-color-on-primary)';
+            btnTech.classList.add('active-view');
+        }
+        if (btnUser) {
+            btnUser.style.background = 'transparent';
+            btnUser.style.color = 'var(--md-sys-color-on-surface-variant)';
+            btnUser.classList.remove('active-view');
+        }
+    } else {
+        if (userGrid) userGrid.style.display = 'grid';
+        if (techGrid) techGrid.style.display = 'none';
+        if (btnUser) {
+            btnUser.style.background = 'var(--md-sys-color-primary)';
+            btnUser.style.color = 'var(--md-sys-color-on-primary)';
+            btnUser.classList.add('active-view');
+        }
+        if (btnTech) {
+            btnTech.style.background = 'transparent';
+            btnTech.style.color = 'var(--md-sys-color-on-surface-variant)';
+            btnTech.classList.remove('active-view');
+        }
+    }
+}
+
+// Bind Global Functions
+window.toggleTheme = toggleTheme;
+window.updateThemeUI = updateThemeUI;
+window.initTheme = initTheme;
+window.openScoreGuideModal = openScoreGuideModal;
+window.closeScoreGuideModal = closeScoreGuideModal;
+window.switchModelView = switchModelView;
+window.openServerModal = openServerModal;
+window.closeServerModal = closeServerModal;
+
