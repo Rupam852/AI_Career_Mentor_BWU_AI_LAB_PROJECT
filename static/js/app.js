@@ -7,9 +7,11 @@ let appMappings = {};
 let activeCharts = {};
 
 // Configurable API Base for Vercel Frontend -> Render Backend integration
+const DEFAULT_BACKEND_URL = "https://ai-career-mentor-backend-gfoc.onrender.com";
+
 const API_BASE = (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1")
-    ? ""
-    : (window.RENDER_BACKEND_URL || localStorage.getItem("RENDER_BACKEND_URL") || "");
+    ? (localStorage.getItem("FORCE_RENDER_BACKEND") ? DEFAULT_BACKEND_URL : "")
+    : (window.RENDER_BACKEND_URL || localStorage.getItem("RENDER_BACKEND_URL") || DEFAULT_BACKEND_URL);
 
 function getApiUrl(endpoint) {
     if (endpoint.startsWith("http")) return endpoint;
